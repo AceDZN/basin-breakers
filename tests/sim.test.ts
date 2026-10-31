@@ -101,6 +101,11 @@ test('quantity cannot substitute for saline/polluted/reuse quality',()=>{
  for(const contaminant of [{salt:3.5,pollution:0,reuse:0},{salt:0,pollution:.5,reuse:0},{salt:0,pollution:0,reuse:1}])assert.equal(quality({water:100,salt:100*contaminant.salt,pollution:100*contaminant.pollution,reuse:100*contaminant.reuse},'drink'),false);
 });
 
+for(const id of [17,19])test(`level ${id}: wrong drinking connection explains quality before the missing farm quantity`,()=>{
+ const l=LEVELS[id-1],s=createState(l);applyPlan(s,l.badPlan);run(s);assert.equal(s.mode,'failed');assert.match(s.reason,/איכות|שתייה|קולחים/);
+ const drinking=l.sinks.findIndex(v=>v.kind==='drink');assert.ok(s.sinks[drinking].water>0);assert.equal(quality(s.sinks[drinking],'drink'),false);
+});
+
 test('irrigation evaporation retains dissolved material in soil and drip reduces water loss',()=>{
  const l=LEVELS[17];const drip=createState(l),waste=createState(l);applyPlan(drip,l.knownPlan);applyPlan(waste,l.badPlan);run(drip);run(waste);
  assert.ok(drip.evap.water<waste.evap.water);assert.ok(drip.sinks[0].water>waste.sinks[0].water);assert.ok(drip.soil.salt>0&&waste.soil.salt>0);assert.equal(drip.evap.salt,0);assert.equal(waste.evap.pollution,0);

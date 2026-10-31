@@ -1,0 +1,149 @@
+{
+  "mode": "won",
+  "level": 24,
+  "title": "האגן החי",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "אגן לא מוכר, שני גלים: מים שפירים, קולחים למטע, תמלחת נפרדת ונחל חי.",
+  "tool": "gate",
+  "time": 105,
+  "duration": 105,
+  "gate": 0.8,
+  "devices": {
+    "pump": 0,
+    "membrane": true,
+    "treatment": true,
+    "brineSafe": true,
+    "reuseToFarm": true,
+    "drip": true,
+    "pollutionGate": 1,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 9.800000000000004,
+  "energy": 1.8200000001525016,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 15.999999999999986
+    },
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 16.000000000000068
+    },
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 18.999999999999982
+    },
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 8.99999999999999
+    }
+  ],
+  "sinks": [
+    {
+      "water": 9.90978791972309,
+      "salt": 0.4475388092777717,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        7,
+        18
+      ],
+      "kind": "drink",
+      "target": 7,
+      "label": "מים שפירים",
+      "qualityOK": true
+    },
+    {
+      "water": 12.159999999938703,
+      "salt": 111.10399999943876,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        24,
+        19
+      ],
+      "kind": "brine",
+      "target": 5,
+      "label": "מוצא תמלחת",
+      "qualityOK": true
+    },
+    {
+      "water": 17.479999999990397,
+      "salt": 3.495999999998089,
+      "pollution": 1.0487999999994233,
+      "reuse": 17.479999999990405,
+      "at": [
+        3,
+        20
+      ],
+      "kind": "farm",
+      "target": 10,
+      "label": "המטע",
+      "qualityOK": true
+    },
+    {
+      "water": 9.930212080171179,
+      "salt": 0.4484611907174048,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        20,
+        21
+      ],
+      "kind": "river",
+      "target": 3,
+      "label": "הנחל החי",
+      "qualityOK": true
+    }
+  ],
+  "aquifer": {
+    "water": 12.999999999998852,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 3,
+  "recharged": 8.999999999998872,
+  "flood": 0,
+  "peak": 0,
+  "hinted": true,
+  "reason": "האגן כולו מחבר נגר, חלחול, איכות והקצאה.",
+  "accounting": {
+    "initial": {
+      "water": 64,
+      "salt": 115.8,
+      "pollution": 19,
+      "reuse": 19
+    },
+    "total": {
+      "water": 64.00000000000065,
+      "salt": 115.7999999999994,
+      "pollution": 19.000000000000135,
+      "reuse": 19.00000000000017
+    },
+    "error": {
+      "water": 6.536993168992922e-13,
+      "salt": -5.968558980384842e-13,
+      "pollution": 1.3500311979441904e-13,
+      "reuse": 1.7053025658242404e-13
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 59
+}

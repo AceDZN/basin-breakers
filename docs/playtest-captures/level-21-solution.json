@@ -1,0 +1,142 @@
+{
+  "mode": "won",
+  "level": 21,
+  "title": "בצורת באגן",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "בצורת: שלבו מים מותפלים, קולחים ועתודה מתחדשת. לכל מקור יש גבול.",
+  "tool": "gate",
+  "time": 85,
+  "duration": 85,
+  "gate": 0.8,
+  "devices": {
+    "pump": 0.03,
+    "membrane": true,
+    "treatment": true,
+    "brineSafe": true,
+    "reuseToFarm": true,
+    "drip": true,
+    "pollutionGate": 1,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 12.600000000000001,
+  "energy": 0.7000022895050643,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 22
+    },
+    {
+      "water": 0,
+      "salt": 4.5493990519229754e-14,
+      "pollution": 2.2747081995788676e-13,
+      "reuse": 2.2747081995788676e-13,
+      "released": 14.999999999999993
+    },
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 5.000000000000001
+    }
+  ],
+  "sinks": [
+    {
+      "water": 13.639998580505967,
+      "salt": 0.6159999358938216,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        7,
+        18
+      ],
+      "kind": "drink",
+      "target": 7,
+      "label": "מים שפירים",
+      "qualityOK": true
+    },
+    {
+      "water": 8.359999129987516,
+      "salt": 76.3839920508335,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        24,
+        19
+      ],
+      "kind": "brine",
+      "target": 4,
+      "label": "מוצא תמלחת",
+      "qualityOK": true
+    },
+    {
+      "water": 13.799999999954467,
+      "salt": 2.7599999999907974,
+      "pollution": 0.8279999999972573,
+      "reuse": 13.79999999995429,
+      "at": [
+        4,
+        15
+      ],
+      "kind": "farm",
+      "target": 8,
+      "label": "מטע חסכוני",
+      "qualityOK": true
+    },
+    {
+      "water": 4.574117647058901,
+      "salt": 0.0000024843211459521197,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        22,
+        21
+      ],
+      "kind": "river",
+      "target": 2,
+      "label": "נחל במורד",
+      "qualityOK": true
+    }
+  ],
+  "aquifer": {
+    "water": 8.410002289053798,
+    "salt": 0.000005516960187784079,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 3,
+  "recharged": 5.000002289055108,
+  "flood": 0,
+  "peak": 0,
+  "hinted": true,
+  "reason": "מים שפירים ותמלחת יחד שווים למי ההזנה.",
+  "accounting": {
+    "initial": {
+      "water": 50,
+      "salt": 80,
+      "pollution": 15,
+      "reuse": 15
+    },
+    "total": {
+      "water": 49.999999999998835,
+      "salt": 79.99999999999984,
+      "pollution": 15.00000000000025,
+      "reuse": 15.000000000000252
+    },
+    "error": {
+      "water": -1.1652900866465643e-12,
+      "salt": -1.5631940186722204e-13,
+      "pollution": 2.504663143554353e-13,
+      "reuse": 2.5224267119483557e-13
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 54
+}

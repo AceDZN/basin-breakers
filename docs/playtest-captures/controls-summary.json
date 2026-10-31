@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "Space pause freezes deterministic time",
+    "Space resume and Escape pause",
+    "blur event handler pauses flow (synthetic event; headless tab activation does not emit native blur)",
+    "R restores full finite pulse",
+    "campaign reset restores terrain budget",
+    "right-drag orbit and camera reset",
+    "wheel zoom",
+    "F fullscreen and Escape exit",
+    "arrow and Enter keyboard terrain brush",
+    "hinted win stays distinct from unaided",
+    "mute and completed campaign persist across reload",
+    "saved tested plan restores terrain with a fresh finite pulse",
+    "mobile touch excavation",
+    "mobile touch drag does not scroll page",
+    "mobile run/pause, reduced motion and narrow viewport",
+    "actual cutaway button shows groundwater in porous rock",
+    "keyboard inspect reports actual terrain and water depth",
+    "actual R input preserves excavated terrain and earth budget while restoring water"
+  ],
+  "errors": [],
+  "checksCount": 18
+}

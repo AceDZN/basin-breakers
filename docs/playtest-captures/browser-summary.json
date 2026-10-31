@@ -1,0 +1,2048 @@
+{
+  "date": "2026-10-31",
+  "method": "Authored-plan scripted QA through actual campaign/tool buttons, projected pointer clicks, range keys and checkboxes. Read-only projection/state diagnostics; documented advanceTime clock. No hidden state mutation or injected wins. Every authored plan marked hinted.",
+  "solutions": [
+    {
+      "level": 1,
+      "title": "הפתח הראשון",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 21.171517285460496,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            22,
+            17
+          ],
+          "kind": "drink",
+          "target": 16,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "המים זורמים לפי הפרש המפלסים.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.999999999999886,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.1368683772161603e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 2,
+      "title": "הבית שבדרך",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 10.500000000000004,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 20.165527722990088,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 12,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "מסלול הניקוז חשוב יותר מהמרחק.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.999999999999915,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -8.526512829121202e-14,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 3,
+      "title": "לאט עם השער",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 23.99999999998385,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 12,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "ספיקה רגעית וכמות כוללת הן גדלים שונים.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.999999999999925,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -7.460698725481052e-14,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 4,
+      "title": "אגן חדש",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 11.200000000000003,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 19.672590897702257,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            19
+          ],
+          "kind": "drink",
+          "target": 12,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "אותו עיקרון עובד גם כשהטופוגרפיה משתנה.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.999999999999893,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.0658141036401503e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 5,
+      "title": "מה נבלע בקרקע",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 11.599495145089042,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 10,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 12.400504853268425,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 12.400504853268425,
+      "flood": 0,
+      "reason": "חלחול מעביר מים למאגר תת־קרקעי.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 24.000000000000348,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": 3.481659405224491e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 6,
+      "title": "חצר האספלט",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 10.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 11.601703896156353,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 10,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 12.398296102203735,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 12.398296102203735,
+      "flood": 0,
+      "reason": "כיסוי הקרקע משנה את החלוקה בין נגר לחלחול.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 24.000000000000313,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": 3.126388037344441e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 7,
+      "title": "מדרגות הנחל",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 11.200000000000003,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 19.193950177712875,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            19
+          ],
+          "kind": "drink",
+          "target": 12,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "השקעת סחף משנה את קיבולת האפיק.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.999999999999922,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -7.815970093361102e-14,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 8,
+      "title": "הגשם הבא",
+      "mode": "won",
+      "time": 75,
+      "duration": 75,
+      "hinted": true,
+      "earth": 11.200000000000003,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 28.538969046660878,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            18
+          ],
+          "kind": "drink",
+          "target": 19,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "תכנון אגירה נבחן לאורך כמה אירועים.",
+      "accounting": {
+        "initial": {
+          "water": 30,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 30.000000000000117,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": 1.1723955140041653e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 9,
+      "title": "האקוויפר",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 17.11248881033729,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            18
+          ],
+          "kind": "drink",
+          "target": 5,
+          "label": "מכל הבאר",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 12.081436290115091,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 1,
+      "recharged": 29.999999999400004,
+      "flood": 0,
+      "reason": "מי תהום נאגרים בנקבוביות הסלע.",
+      "accounting": {
+        "initial": {
+          "water": 30,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 29.99999999999806,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.9397816686250735e-12,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 10,
+      "title": "באר עמוקה מדי",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 12.030490127175433,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            18
+          ],
+          "kind": "drink",
+          "target": 5,
+          "label": "מכל הבאר",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 12.759999999995918,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 11,
+      "recharged": 9.999999999993557,
+      "flood": 0,
+      "reason": "אספקה זמנית אינה מעידה על חידוש בר־קיימא.",
+      "accounting": {
+        "initial": {
+          "water": 25,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 25.000000000002323,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": 2.3234747459355276e-12,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 11,
+      "title": "מקור מזוהם",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 17.112481703267072,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            18
+          ],
+          "kind": "drink",
+          "target": 5,
+          "label": "מכל הבאר",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 12.081443397178392,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 1,
+      "recharged": 29.999999999401723,
+      "flood": 0,
+      "reason": "מניעת זיהום מתחילה במעלה אגן הניקוז.",
+      "accounting": {
+        "initial": {
+          "water": 37,
+          "salt": 0,
+          "pollution": 10.5,
+          "reuse": 0
+        },
+        "total": {
+          "water": 36.99999999999801,
+          "salt": 0,
+          "pollution": 10.5,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.9895196601282805e-12,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 12,
+      "title": "חוזרים למקור",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 18.39245209812723,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            18
+          ],
+          "kind": "drink",
+          "target": 4,
+          "label": "מכל הבאר",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 10.630024550692108,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 3,
+      "recharged": 29.988885380788584,
+      "flood": 0,
+      "reason": "מי תהום נאגרים בנקבוביות הסלע.",
+      "accounting": {
+        "initial": {
+          "water": 30,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 30.00000000000138,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": 1.3784529073745944e-12,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 13,
+      "title": "מלח במים",
+      "mode": "won",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 19.550959047645694,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 12,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "כמות מספקת ואיכות מתאימה הן שתי דרישות.",
+      "accounting": {
+        "initial": {
+          "water": 36,
+          "salt": 42,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 35.999999999999886,
+          "salt": 42,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.1368683772161603e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 14,
+      "title": "הממברנה",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 3.0000000006296914,
+      "sinks": [
+        {
+          "water": 19.83999999960053,
+          "salt": 0.8959999999819803,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            22,
+            18
+          ],
+          "kind": "drink",
+          "target": 10,
+          "label": "מים שפירים",
+          "qualityOK": true
+        },
+        {
+          "water": 12.159999999755613,
+          "salt": 111.10399999776972,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            19
+          ],
+          "kind": "brine",
+          "target": 7,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "מים שפירים ותמלחת יחד שווים למי ההזנה.",
+      "accounting": {
+        "initial": {
+          "water": 32,
+          "salt": 112,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 31.999999999999748,
+          "salt": 112.00000000000196,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -2.5224267119483557e-13,
+          "salt": 1.9610979506978765e-12,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 15,
+      "title": "לא לאותו צינור",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 3.0004908729890096,
+      "sinks": [
+        {
+          "water": 19.83969565873902,
+          "salt": 0.8959862555559757,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            7,
+            18
+          ],
+          "kind": "drink",
+          "target": 10,
+          "label": "מים שפירים",
+          "qualityOK": true
+        },
+        {
+          "water": 12.159813468259081,
+          "salt": 111.10229568893811,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            19
+          ],
+          "kind": "brine",
+          "target": 7,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "מלח נשאר במערכת גם כשהזרמים מתערבבים.",
+      "accounting": {
+        "initial": {
+          "water": 32,
+          "salt": 112,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 31.999999999999794,
+          "salt": 112.00000000000188,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -2.0605739337042905e-13,
+          "salt": 1.8758328224066645e-12,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 16,
+      "title": "לילה בלי הספק",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 0,
+      "sinks": [
+        {
+          "water": 16.539999999984527,
+          "salt": 0.475999999999611,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            22,
+            18
+          ],
+          "kind": "drink",
+          "target": 11,
+          "label": "מים שפירים",
+          "qualityOK": true
+        },
+        {
+          "water": 6.459999999994846,
+          "salt": 59.02399999995361,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            19
+          ],
+          "kind": "brine",
+          "target": 3,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "אגירה מפחיתה תלות בהספק הרגעי.",
+      "accounting": {
+        "initial": {
+          "water": 32,
+          "salt": 91,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 31.999999999999847,
+          "salt": 91.00000000000065,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.5276668818842154e-13,
+          "salt": 6.536993168992922e-13,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 17,
+      "title": "מים לסיבוב נוסף",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 8.840000000019888,
+      "sinks": [
+        {
+          "water": 25.75999999990922,
+          "salt": 6.439999999977307,
+          "pollution": 1.545599999994556,
+          "reuse": 25.75999999990923,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "farm",
+          "target": 12,
+          "label": "מטע זיתים",
+          "qualityOK": true
+        },
+        {
+          "water": 0,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            10
+          ],
+          "kind": "drink",
+          "target": 0,
+          "label": "מכל שתייה — לשמור נקי",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "שימוש חוזר חוסך מים שפירים כשהיעד מתאים.",
+      "accounting": {
+        "initial": {
+          "water": 28,
+          "salt": 7,
+          "pollution": 28,
+          "reuse": 28
+        },
+        "total": {
+          "water": 27.999999999999705,
+          "salt": 6.999999999999929,
+          "pollution": 27.999999999999723,
+          "reuse": 27.999999999999716
+        },
+        "error": {
+          "water": -2.948752353404416e-13,
+          "salt": -7.105427357601002e-14,
+          "pollution": -2.7711166694643907e-13,
+          "reuse": -2.8421709430404007e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 18,
+      "title": "אל השורש",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 10.16000000001705,
+      "sinks": [
+        {
+          "water": 20.239999999920453,
+          "salt": 5.0599999999801115,
+          "pollution": 1.2143999999952315,
+          "reuse": 20.239999999920446,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "farm",
+          "target": 14,
+          "label": "מטע זיתים",
+          "qualityOK": true
+        },
+        {
+          "water": 0,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            10
+          ],
+          "kind": "drink",
+          "target": 0,
+          "label": "מכל שתייה — לשמור נקי",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "יעילות מפחיתה איבוד, בלי ליצור מים.",
+      "accounting": {
+        "initial": {
+          "water": 22,
+          "salt": 5.5,
+          "pollution": 22,
+          "reuse": 22
+        },
+        "total": {
+          "water": 21.99999999999986,
+          "salt": 5.499999999999964,
+          "pollution": 21.999999999999922,
+          "reuse": 21.999999999999854
+        },
+        "error": {
+          "water": -1.3855583347321954e-13,
+          "salt": -3.6415315207705135e-14,
+          "pollution": -7.815970093361102e-14,
+          "reuse": -1.4566126083082054e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 19,
+      "title": "שתי רשתות",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 8.840000000019883,
+      "sinks": [
+        {
+          "water": 25.759999999909358,
+          "salt": 6.439999999977341,
+          "pollution": 1.5455999999945649,
+          "reuse": 25.759999999909365,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "farm",
+          "target": 12,
+          "label": "מטע זיתים",
+          "qualityOK": true
+        },
+        {
+          "water": 14.999999999995715,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            10
+          ],
+          "kind": "drink",
+          "target": 9,
+          "label": "מכל שתייה — לשמור נקי",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "שימוש חוזר חוסך מים שפירים כשהיעד מתאים.",
+      "accounting": {
+        "initial": {
+          "water": 43,
+          "salt": 7,
+          "pollution": 28,
+          "reuse": 28
+        },
+        "total": {
+          "water": 42.99999999999999,
+          "salt": 6.999999999999943,
+          "pollution": 27.99999999999981,
+          "reuse": 27.999999999999773
+        },
+        "error": {
+          "water": -7.105427357601002e-15,
+          "salt": -5.684341886080802e-14,
+          "pollution": -1.8829382497642655e-13,
+          "reuse": -2.2737367544323206e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 20,
+      "title": "הנחל צריך מים",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 11.200000000000003,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 16.080403813972136,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 7,
+          "label": "מכל היישוב",
+          "rate": 0.5,
+          "qualityOK": true
+        },
+        {
+          "water": 15.9195961609927,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            7,
+            20
+          ],
+          "kind": "river",
+          "target": 5,
+          "label": "זרימת הנחל",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "גם הנחל הוא יעד בהקצאת המים.",
+      "accounting": {
+        "initial": {
+          "water": 32,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 31.999999999999854,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.4566126083082054e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 21,
+      "title": "בצורת באגן",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 0.7000022895050643,
+      "sinks": [
+        {
+          "water": 13.639998580505967,
+          "salt": 0.6159999358938216,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            7,
+            18
+          ],
+          "kind": "drink",
+          "target": 7,
+          "label": "מים שפירים",
+          "qualityOK": true
+        },
+        {
+          "water": 8.359999129987516,
+          "salt": 76.3839920508335,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            19
+          ],
+          "kind": "brine",
+          "target": 4,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        },
+        {
+          "water": 13.799999999954467,
+          "salt": 2.7599999999907974,
+          "pollution": 0.8279999999972573,
+          "reuse": 13.79999999995429,
+          "at": [
+            4,
+            15
+          ],
+          "kind": "farm",
+          "target": 8,
+          "label": "מטע חסכוני",
+          "qualityOK": true
+        },
+        {
+          "water": 4.574117647058901,
+          "salt": 2.4843211459521197e-06,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            22,
+            21
+          ],
+          "kind": "river",
+          "target": 2,
+          "label": "נחל במורד",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 8.410002289053798,
+        "salt": 5.516960187784079e-06,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 3,
+      "recharged": 5.000002289055108,
+      "flood": 0,
+      "reason": "מים שפירים ותמלחת יחד שווים למי ההזנה.",
+      "accounting": {
+        "initial": {
+          "water": 50,
+          "salt": 80,
+          "pollution": 15,
+          "reuse": 15
+        },
+        "total": {
+          "water": 49.999999999998835,
+          "salt": 79.99999999999984,
+          "pollution": 15.00000000000025,
+          "reuse": 15.000000000000252
+        },
+        "error": {
+          "water": -1.1652900866465643e-12,
+          "salt": -1.5631940186722204e-13,
+          "pollution": 2.504663143554353e-13,
+          "reuse": 2.5224267119483557e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 22,
+      "title": "מבול קצר",
+      "mode": "won",
+      "time": 100,
+      "duration": 100,
+      "hinted": true,
+      "earth": 11.200000000000003,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 34.999999999980886,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            18
+          ],
+          "kind": "drink",
+          "target": 20,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "בטיחות הסופה ואספקה מאוחרת נבחנות יחד.",
+      "accounting": {
+        "initial": {
+          "water": 35,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 34.99999999999987,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.2789769243681803e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 23,
+      "title": "תכנית משלכם",
+      "mode": "won",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 11.200000000000003,
+      "energy": 3.000000000629694,
+      "sinks": [
+        {
+          "water": 19.83999999959471,
+          "salt": 0.8959999999817115,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            22,
+            18
+          ],
+          "kind": "drink",
+          "target": 9,
+          "label": "מים שפירים",
+          "qualityOK": true
+        },
+        {
+          "water": 12.159999999755591,
+          "salt": 111.10399999776936,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            19
+          ],
+          "kind": "brine",
+          "target": 7,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "אפשר להשוות כמה תכניות בטוחות לאותו אגן.",
+      "accounting": {
+        "initial": {
+          "water": 32,
+          "salt": 112,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 31.999999999999844,
+          "salt": 112.00000000000152,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.5631940186722204e-13,
+          "salt": 1.5205614545266144e-12,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 24,
+      "title": "האגן החי",
+      "mode": "won",
+      "time": 105,
+      "duration": 105,
+      "hinted": true,
+      "earth": 9.800000000000004,
+      "energy": 1.8200000001525016,
+      "sinks": [
+        {
+          "water": 9.90978791972309,
+          "salt": 0.4475388092777717,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            7,
+            18
+          ],
+          "kind": "drink",
+          "target": 7,
+          "label": "מים שפירים",
+          "qualityOK": true
+        },
+        {
+          "water": 12.159999999938703,
+          "salt": 111.10399999943876,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            19
+          ],
+          "kind": "brine",
+          "target": 5,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        },
+        {
+          "water": 17.479999999990397,
+          "salt": 3.495999999998089,
+          "pollution": 1.0487999999994233,
+          "reuse": 17.479999999990405,
+          "at": [
+            3,
+            20
+          ],
+          "kind": "farm",
+          "target": 10,
+          "label": "המטע",
+          "qualityOK": true
+        },
+        {
+          "water": 9.930212080171179,
+          "salt": 0.4484611907174048,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            20,
+            21
+          ],
+          "kind": "river",
+          "target": 3,
+          "label": "הנחל החי",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 12.999999999998852,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 3,
+      "recharged": 8.999999999998872,
+      "flood": 0,
+      "reason": "האגן כולו מחבר נגר, חלחול, איכות והקצאה.",
+      "accounting": {
+        "initial": {
+          "water": 64,
+          "salt": 115.8,
+          "pollution": 19,
+          "reuse": 19
+        },
+        "total": {
+          "water": 64.00000000000065,
+          "salt": 115.7999999999994,
+          "pollution": 19.000000000000135,
+          "reuse": 19.00000000000017
+        },
+        "error": {
+          "water": 6.536993168992922e-13,
+          "salt": -5.968558980384842e-13,
+          "pollution": 1.3500311979441904e-13,
+          "reuse": 1.7053025658242404e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "level": 2,
+      "title": "הבית שבדרך",
+      "mode": "failed",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 16.83188897555531,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 12,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 20.042193806833104,
+      "reason": "החצר הוצפה: שיא הזרימה עלה מעל קיבולת המעבר.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.99999999999991,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -8.881784197001252e-14,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 6,
+      "title": "חצר האספלט",
+      "mode": "failed",
+      "time": 55,
+      "duration": 55,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 20.17254137184326,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "drink",
+          "target": 10,
+          "label": "מכל היישוב",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "לא חלחלו מספיק מים. בדקו את הקרקע הנקבובית ואת הכיסוי האטום.",
+      "accounting": {
+        "initial": {
+          "water": 24,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 23.999999999999886,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -1.1368683772161603e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 10,
+      "title": "באר עמוקה מדי",
+      "mode": "failed",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 40,
+      "sinks": [
+        {
+          "water": 24.99999999998988,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            5,
+            18
+          ],
+          "kind": "drink",
+          "target": 5,
+          "label": "מכל הבאר",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 11,
+      "recharged": 9.99999999999332,
+      "flood": 0,
+      "reason": "המשאבה משכה יותר מדי: עתודת מי התהום נמוכה מהנדרש.",
+      "accounting": {
+        "initial": {
+          "water": 25,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 24.99999999999996,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -3.907985046680551e-14,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 15,
+      "title": "לא לאותו צינור",
+      "mode": "failed",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 2.997342454223253,
+      "sinks": [
+        {
+          "water": 31.59299411209296,
+          "salt": 110.57547939232774,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            7,
+            18
+          ],
+          "kind": "drink",
+          "target": 10,
+          "label": "מים שפירים",
+          "qualityOK": false
+        },
+        {
+          "water": 0,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            24,
+            19
+          ],
+          "kind": "brine",
+          "target": 7,
+          "label": "מוצא תמלחת",
+          "qualityOK": true
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.",
+      "accounting": {
+        "initial": {
+          "water": 32,
+          "salt": 112,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "total": {
+          "water": 31.999999999999773,
+          "salt": 112.00000000000162,
+          "pollution": 0,
+          "reuse": 0
+        },
+        "error": {
+          "water": -2.2737367544323206e-13,
+          "salt": 1.6200374375330284e-12,
+          "pollution": 0,
+          "reuse": 0
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 17,
+      "title": "מים לסיבוב נוסף",
+      "mode": "failed",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 8.84000000000521,
+      "sinks": [
+        {
+          "water": 0,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "farm",
+          "target": 12,
+          "label": "מטע זיתים",
+          "qualityOK": true
+        },
+        {
+          "water": 27.99999999997528,
+          "salt": 6.999999999993821,
+          "pollution": 1.6799999999985176,
+          "reuse": 27.999999999975284,
+          "at": [
+            23,
+            10
+          ],
+          "kind": "drink",
+          "target": 0,
+          "label": "מכל שתייה — לשמור נקי",
+          "qualityOK": false
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.",
+      "accounting": {
+        "initial": {
+          "water": 28,
+          "salt": 7,
+          "pollution": 28,
+          "reuse": 28
+        },
+        "total": {
+          "water": 27.99999999999976,
+          "salt": 6.9999999999999405,
+          "pollution": 27.999999999999755,
+          "reuse": 27.999999999999762
+        },
+        "error": {
+          "water": -2.4158453015843406e-13,
+          "salt": -5.950795411990839e-14,
+          "pollution": -2.4513724383723456e-13,
+          "reuse": -2.3803181647963356e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    },
+    {
+      "level": 19,
+      "title": "שתי רשתות",
+      "mode": "failed",
+      "time": 85,
+      "duration": 85,
+      "hinted": true,
+      "earth": 12.600000000000001,
+      "energy": 8.840000000005109,
+      "sinks": [
+        {
+          "water": 0,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0,
+          "at": [
+            23,
+            18
+          ],
+          "kind": "farm",
+          "target": 12,
+          "label": "מטע זיתים",
+          "qualityOK": true
+        },
+        {
+          "water": 42.99999999997295,
+          "salt": 6.999999999993949,
+          "pollution": 1.6799999999985464,
+          "reuse": 27.999999999975795,
+          "at": [
+            23,
+            10
+          ],
+          "kind": "drink",
+          "target": 9,
+          "label": "מכל שתייה — לשמור נקי",
+          "qualityOK": false
+        }
+      ],
+      "aquifer": {
+        "water": 0,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "reserve": 0,
+      "recharged": 0,
+      "flood": 0,
+      "reason": "המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.",
+      "accounting": {
+        "initial": {
+          "water": 43,
+          "salt": 7,
+          "pollution": 28,
+          "reuse": 28
+        },
+        "total": {
+          "water": 43.00000000000002,
+          "salt": 6.999999999999936,
+          "pollution": 27.999999999999726,
+          "reuse": 27.999999999999744
+        },
+        "error": {
+          "water": 2.1316282072803006e-14,
+          "salt": -6.394884621840902e-14,
+          "pollution": -2.7355895326763857e-13,
+          "reuse": -2.5579538487363607e-13
+        }
+      },
+      "assets": {
+        "gate": true,
+        "skid": true
+      }
+    }
+  ],
+  "consoleErrors": []
+}

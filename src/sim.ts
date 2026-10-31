@@ -45,7 +45,8 @@ function substep(s:State,dt:number){s.time+=dt;s.tick++;
 export function step(s:State,dt:number){if(s.mode!=='run')return;let left=Math.min(dt,s.level.duration-s.time);while(left>1e-9&&s.mode==='run'){const d=Math.min(.025,left);substep(s,d);left-=d;}}
 export function evaluate(s:State):{ok:boolean;reason:string}{
  if(s.flood>.1)return{ok:false,reason:'החצר הוצפה: שיא הזרימה עלה מעל קיבולת המעבר.'};
- for(let k=0;k<s.sinks.length;k++){const d=s.level.sinks[k],v=s.sinks[k];if(!quality(v,d.kind))return{ok:false,reason:d.kind==='drink'?'המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.':'איכות המים אינה מתאימה ליעד. בדקו את מקור הזרם.'};if(v.water+1e-6<d.target)return{ok:false,reason:`חסרות מים ביעד: ${d.label}. בדקו את הספים, קצב השחרור והחלחול.`};}
+ for(let k=0;k<s.sinks.length;k++){const d=s.level.sinks[k],v=s.sinks[k];if(!quality(v,d.kind))return{ok:false,reason:d.kind==='drink'?'המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.':'איכות המים אינה מתאימה ליעד. בדקו את מקור הזרם.'};}
+ for(let k=0;k<s.sinks.length;k++){const d=s.level.sinks[k],v=s.sinks[k];if(v.water+1e-6<d.target)return{ok:false,reason:`חסרים מים ביעד: ${d.label}. בדקו את הספים, קצב השחרור והחלחול.`};}
  if(s.aquifer.water+1e-6<s.level.reserve)return{ok:false,reason:'המשאבה משכה יותר מדי: עתודת מי התהום נמוכה מהנדרש.'};
  if(s.recharged+1e-6<s.level.recharge)return{ok:false,reason:'לא חלחלו מספיק מים. בדקו את הקרקע הנקבובית ואת הכיסוי האטום.'};
  if(s.level.groundQuality&&!quality(s.aquifer,'drink'))return{ok:false,reason:'הזיהום חלחל למי התהום. עצרו את הדליפה לפני השחרור.'};

@@ -1,0 +1,86 @@
+{
+  "mode": "failed",
+  "level": 10,
+  "title": "באר עמוקה מדי",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "המכל צריך מים, אך האקוויפר צריך עתודה של 11. הגבילו את השאיבה.",
+  "tool": "gate",
+  "time": 85,
+  "duration": 85,
+  "gate": 0.8,
+  "devices": {
+    "pump": 1,
+    "membrane": false,
+    "treatment": false,
+    "brineSafe": true,
+    "reuseToFarm": true,
+    "drip": false,
+    "pollutionGate": 1,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 12.600000000000001,
+  "energy": 40,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 9.999999999999996
+    }
+  ],
+  "sinks": [
+    {
+      "water": 24.99999999998988,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        5,
+        18
+      ],
+      "kind": "drink",
+      "target": 5,
+      "label": "מכל הבאר",
+      "qualityOK": true
+    }
+  ],
+  "aquifer": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 11,
+  "recharged": 9.99999999999332,
+  "flood": 0,
+  "peak": 0,
+  "hinted": true,
+  "reason": "המשאבה משכה יותר מדי: עתודת מי התהום נמוכה מהנדרש.",
+  "accounting": {
+    "initial": {
+      "water": 25,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    },
+    "total": {
+      "water": 24.99999999999996,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    },
+    "error": {
+      "water": -3.907985046680551e-14,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 56
+}

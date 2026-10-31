@@ -1,0 +1,64 @@
+{
+  "url": "http://localhost:4302",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 1
+  },
+  "graphics": "Chromium headless, --use-angle=metal",
+  "fpsSamples": [
+    60,
+    60,
+    60
+  ],
+  "actualElapsedSimulationSeconds": 10.03290000000002,
+  "networkOfflineAfterLoad": true,
+  "offlineActualPointerRunWon": true,
+  "encodedBytes": 2811815,
+  "transferredBytes": 2813915,
+  "resources": [
+    {
+      "url": "http://localhost:4302/",
+      "encodedBytes": 450,
+      "transferBytes": 750,
+      "durationMs": 341.2000000476837
+    },
+    {
+      "url": "http://localhost:4302/assets/index-BvJLJwMW.js",
+      "encodedBytes": 181588,
+      "transferBytes": 181888,
+      "durationMs": 46.89999997615814
+    },
+    {
+      "url": "http://localhost:4302/assets/index-CUrImBUd.css",
+      "encodedBytes": 3197,
+      "transferBytes": 3497,
+      "durationMs": 16.5
+    },
+    {
+      "url": "http://localhost:4302/assets/heebo-hebrew-400-normal-CVTJgQVK.woff2",
+      "encodedBytes": 5084,
+      "transferBytes": 5384,
+      "durationMs": 87.39999997615814
+    },
+    {
+      "url": "http://localhost:4302/assets/heebo-hebrew-600-normal-CGRgQ0cj.woff2",
+      "encodedBytes": 5108,
+      "transferBytes": 5408,
+      "durationMs": 87.39999997615814
+    },
+    {
+      "url": "http://localhost:4302/models/sluice-gate.glb",
+      "encodedBytes": 1402236,
+      "transferBytes": 1402536,
+      "durationMs": 21.700000047683716
+    },
+    {
+      "url": "http://localhost:4302/models/membrane-skid.glb",
+      "encodedBytes": 1214152,
+      "transferBytes": 1214452,
+      "durationMs": 105.70000004768372
+    }
+  ],
+  "errors": []
+}

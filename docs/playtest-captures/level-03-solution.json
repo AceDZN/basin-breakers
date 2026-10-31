@@ -1,0 +1,86 @@
+{
+  "mode": "won",
+  "level": 3,
+  "title": "לאט עם השער",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "המעבר צר: שחררו זרם מתון כדי שהמים לא יגלשו לחצר.",
+  "tool": "gate",
+  "time": 85,
+  "duration": 85,
+  "gate": 0.17,
+  "devices": {
+    "pump": 0,
+    "membrane": false,
+    "treatment": false,
+    "brineSafe": true,
+    "reuseToFarm": true,
+    "drip": false,
+    "pollutionGate": 1,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 12.600000000000001,
+  "energy": 40,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 24
+    }
+  ],
+  "sinks": [
+    {
+      "water": 23.99999999998385,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        23,
+        18
+      ],
+      "kind": "drink",
+      "target": 12,
+      "label": "מכל היישוב",
+      "qualityOK": true
+    }
+  ],
+  "aquifer": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 0,
+  "recharged": 0,
+  "flood": 0,
+  "peak": 0.6389339889347081,
+  "hinted": true,
+  "reason": "ספיקה רגעית וכמות כוללת הן גדלים שונים.",
+  "accounting": {
+    "initial": {
+      "water": 24,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    },
+    "total": {
+      "water": 23.999999999999925,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    },
+    "error": {
+      "water": -7.460698725481052e-14,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 60
+}

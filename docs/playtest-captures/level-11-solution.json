@@ -1,0 +1,93 @@
+{
+  "mode": "won",
+  "level": 11,
+  "title": "מקור מזוהם",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "עצרו את מקור הזיהום לפני שהמים יחלחלו אל האקוויפר.",
+  "tool": "gate",
+  "time": 85,
+  "duration": 85,
+  "gate": 0.8,
+  "devices": {
+    "pump": 0.12,
+    "membrane": false,
+    "treatment": false,
+    "brineSafe": true,
+    "reuseToFarm": true,
+    "drip": false,
+    "pollutionGate": 0,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 12.600000000000001,
+  "energy": 40,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 30
+    },
+    {
+      "water": 7,
+      "salt": 0,
+      "pollution": 10.5,
+      "reuse": 0,
+      "released": 0
+    }
+  ],
+  "sinks": [
+    {
+      "water": 17.112481703267072,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        24,
+        18
+      ],
+      "kind": "drink",
+      "target": 5,
+      "label": "מכל הבאר",
+      "qualityOK": true
+    }
+  ],
+  "aquifer": {
+    "water": 12.081443397178392,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 1,
+  "recharged": 29.999999999401723,
+  "flood": 0,
+  "peak": 0,
+  "hinted": true,
+  "reason": "מניעת זיהום מתחילה במעלה אגן הניקוז.",
+  "accounting": {
+    "initial": {
+      "water": 37,
+      "salt": 0,
+      "pollution": 10.5,
+      "reuse": 0
+    },
+    "total": {
+      "water": 36.99999999999801,
+      "salt": 0,
+      "pollution": 10.5,
+      "reuse": 0
+    },
+    "error": {
+      "water": -1.9895196601282805e-12,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 55
+}

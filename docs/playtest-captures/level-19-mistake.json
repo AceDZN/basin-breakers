@@ -1,0 +1,107 @@
+{
+  "mode": "failed",
+  "level": 19,
+  "title": "שתי רשתות",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "מלאו את מכל הבתים במים שפירים ואת המטע בקולחים. שמרו שתי רשתות.",
+  "tool": "gate",
+  "time": 85,
+  "duration": 85,
+  "gate": 0.8,
+  "devices": {
+    "pump": 0,
+    "membrane": false,
+    "treatment": true,
+    "brineSafe": true,
+    "reuseToFarm": false,
+    "drip": true,
+    "pollutionGate": 1,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 12.600000000000001,
+  "energy": 8.840000000005109,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 28.00000000000004
+    },
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 14.999999999999991
+    }
+  ],
+  "sinks": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        23,
+        18
+      ],
+      "kind": "farm",
+      "target": 12,
+      "label": "מטע זיתים",
+      "qualityOK": true
+    },
+    {
+      "water": 42.99999999997295,
+      "salt": 6.999999999993949,
+      "pollution": 1.6799999999985464,
+      "reuse": 27.999999999975795,
+      "at": [
+        23,
+        10
+      ],
+      "kind": "drink",
+      "target": 9,
+      "label": "מכל שתייה — לשמור נקי",
+      "qualityOK": false
+    }
+  ],
+  "aquifer": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 0,
+  "recharged": 0,
+  "flood": 0,
+  "peak": 0,
+  "hinted": true,
+  "reason": "המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.",
+  "accounting": {
+    "initial": {
+      "water": 43,
+      "salt": 7,
+      "pollution": 28,
+      "reuse": 28
+    },
+    "total": {
+      "water": 43.00000000000002,
+      "salt": 6.999999999999936,
+      "pollution": 27.999999999999726,
+      "reuse": 27.999999999999744
+    },
+    "error": {
+      "water": 2.1316282072803006e-14,
+      "salt": -6.394884621840902e-14,
+      "pollution": -2.7355895326763857e-13,
+      "reuse": -2.5579538487363607e-13
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 57
+}

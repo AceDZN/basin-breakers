@@ -1,0 +1,100 @@
+{
+  "mode": "failed",
+  "level": 15,
+  "title": "לא לאותו צינור",
+  "coordinates": "grid x=0..28 west→east, z=0..22 upstream/back→foreground; terrain elevation + water = head",
+  "objective": "התמלחת מחוברת למוצא השפיר. הפרידו את היציאות לפני ההרצה.",
+  "tool": "gate",
+  "time": 85,
+  "duration": 85,
+  "gate": 0.8,
+  "devices": {
+    "pump": 0,
+    "membrane": true,
+    "treatment": false,
+    "brineSafe": false,
+    "reuseToFarm": true,
+    "drip": false,
+    "pollutionGate": 1,
+    "salineGate": 1,
+    "unseal": false
+  },
+  "earth": 12.600000000000001,
+  "energy": 2.997342454223253,
+  "sources": [
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "released": 32.00000000000001
+    }
+  ],
+  "sinks": [
+    {
+      "water": 31.59299411209296,
+      "salt": 110.57547939232774,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        7,
+        18
+      ],
+      "kind": "drink",
+      "target": 10,
+      "label": "מים שפירים",
+      "qualityOK": false
+    },
+    {
+      "water": 0,
+      "salt": 0,
+      "pollution": 0,
+      "reuse": 0,
+      "at": [
+        24,
+        19
+      ],
+      "kind": "brine",
+      "target": 7,
+      "label": "מוצא תמלחת",
+      "qualityOK": true
+    }
+  ],
+  "aquifer": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "reserve": 0,
+  "recharged": 0,
+  "flood": 0,
+  "peak": 0,
+  "hinted": true,
+  "reason": "המכל קיבל מים באיכות שאינה מתאימה לשתייה: בדקו מלח, מזהם וקולחים.",
+  "accounting": {
+    "initial": {
+      "water": 32,
+      "salt": 112,
+      "pollution": 0,
+      "reuse": 0
+    },
+    "total": {
+      "water": 31.999999999999773,
+      "salt": 112.00000000000162,
+      "pollution": 0,
+      "reuse": 0
+    },
+    "error": {
+      "water": -2.2737367544323206e-13,
+      "salt": 1.6200374375330284e-12,
+      "pollution": 0,
+      "reuse": 0
+    }
+  },
+  "assets": {
+    "gate": true,
+    "skid": true
+  },
+  "fps": 60
+}
