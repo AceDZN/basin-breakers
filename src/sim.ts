@@ -35,7 +35,7 @@ function substep(s:State,dt:number){s.time+=dt;s.tick++;
  processDevices(s,dt);flow(s,dt);
  for(let i=0;i<N;i++){const rate=s.level.sealed&&!s.devices.unseal?0:s.perm[i];if(rate>0&&s.w[i]>0){const a=cellTake(s,i,Math.min(s.w[i],rate*dt));s.recharged+=a.water;add(s.aquifer,a);}}
  if(s.level.pumpOut){const a=take(s.aquifer,Number(s.devices.pump)*dt*1.8);cellAdd(s,s.level.pumpOut,a);}
- s.level.sinks.forEach((d,k)=>{const i=idx(...d.at);const q=Math.min(s.w[i],dt*(d.rate||8));if(q<=0)return;const a=cellTake(s,i,q);if(d.kind==='farm'){const efficiency=s.devices.drip?.92:.5;const loss=a.water*(1-efficiency);s.evap.water+=loss; // Evaporated water leaves all dissolved mass in the soil ledger.
+ s.level.sinks.forEach((d,k)=>{const i=idx(...d.at);const q=Math.min(s.w[i],dt*(d.rate||8),Math.max(0,(d.capacity??Infinity)-s.sinks[k].water));if(q<=0)return;const a=cellTake(s,i,q);if(d.kind==='farm'){const efficiency=s.devices.drip?.92:.5;const loss=a.water*(1-efficiency);s.evap.water+=loss; // Evaporated water leaves all dissolved mass in the soil ledger.
  const fraction=loss/a.water;s.soil.salt+=a.salt*fraction;s.soil.pollution+=a.pollution*fraction;s.soil.reuse+=a.reuse*fraction;a.water-=loss;a.salt*=1-fraction;a.pollution*=1-fraction;a.reuse*=1-fraction;}add(s.sinks[k],a);});
  for(const p of s.level.hazards){const depth=s.w[idx(...p)];s.peak=Math.max(s.peak,depth);if(depth>s.level.floodLimit)s.flood+=dt*(depth-s.level.floodLimit);}
  // In the sediment mission the loose deposit is a raised bed. Excavating it restores capacity;

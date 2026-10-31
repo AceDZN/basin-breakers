@@ -1,6 +1,8 @@
 # Basin Breakers rebuild: independent UX and gameplay audit
 
-31 October 2026. Scope: critique and rebuild recommendations only. No gameplay code, campaign, tests, other repository or other chat was changed. New generated gameplay targets must precede implementation of the rebuild.
+31 October 2026. **CURRENT STATUS: THE GUIDED-PATCH RESCUE PROTOTYPE IS REJECTED BY THE HUMAN OWNER. Its cue-driven interaction does not provide the requested agency, even where the input loop works. Stop certification and campaign expansion; the next design review is AGENCY_REVIEW.md.**
+
+**Latest human preference: short flood-rescue puzzles, redirecting water away from homes with quick retries. This supersedes the earlier garden-watering primary goal.** Scope: critique and rebuild recommendations only. No gameplay code, campaign, tests, other repository or other chat was changed. New generated gameplay targets must precede implementation of the rebuild.
 
 ## Verdict
 
@@ -69,30 +71,42 @@ These references inform interaction and pacing; they do not supply Basin's art, 
 
 All reference files were read in `/Users/acedzn/dev/AceDZN-exp/` without writes. The actual screenshots provide evidence of the shown composition. Their docs' campaign and timing claims remain attributed reports, not independently revalidated facts.
 
-## Recommended radical simpler loop: pull a channel, watch a short wave, improve it
+## Recommended simpler loop: cut a bypass, rescue homes, try another short flood
 
-**First promise:** “גררו תעלה כדי להביא מים למטע.” One source, one thirsty destination, one clearly different patch of soft earth. A fixed close oblique camera includes all three. The destination carries a broad physical fill line and a simple progress shape. The olive patch should visibly be dry before success and visibly recover afterward.
+The human chose **short flood-rescue puzzles** with quick retries and no specific reference game. Village protection is now the primary fantasy. Garden watering is retained only as a possible later resource-management consequence. New rescue-specific imagegen targets must be inspected before implementing this change.
 
-**One initial verb:** drag to carve. A broad scoop follows the finger, produces a coherent channel in one pass and visibly exposes a darker bed. Bedrock and machinery do not accept the same gesture. One gentle hand demonstration can show *how to drag across a short patch* without drawing the full correct route. No camera operation, gate panel, raise tool, salinity meter, aquifer or campaign sheet is required for the first useful action.
+**First promise:** “הסיטו את השיטפון מהבתים.” A close fixed oblique camera contains one visibly held finite flood, three vulnerable homes on the lower threatened route, one broad sandy bypass interruption and a lower safe retention basin/outfall. These form one composition; decorative terrain does not hide the choice. The first scene waits safely for the player's gesture.
 
-**Immediate experiment:** releasing the first valid stroke triggers a clearly announced **6–8-second finite test wave**. Give a brief cancellable preparation beat if needed. A later explicit “שחרור מים” control can support deliberate multi-stroke plans. The response begins while the gesture is still remembered. The water visibly runs down the actual bed; it must not follow a route-answer key.
+**One initial verb:** drag to carve the sandy bypass. A broad scoop follows the finger, opens a usable channel in one pass and exposes a darker bed. Bedrock and machinery do not accept that same destructive gesture. A small hand demonstrates the motion across a short area without painting the complete solution. There is no camera prerequisite, gate panel, raise tool, salinity meter, aquifer or campaign sheet to operate first.
 
-**A forgiving miss:** water briefly splashes into a low spill basin or courtyard; the scene freezes at the first decisive visible mistake. One short sentence identifies it, for example “המים נשפכו לחצר הנמוכה.” The player can reshape the relevant earth while that evidence is visible. One “עוד גל” action restores the finite pulse and replays the current plan. An obvious Undo reverses the last earth stroke and refunds its actual cost. Do not consume a learning attempt with silent clicks on props.
+**Immediate experiment:** a valid opening stroke leads directly to a clearly announced **6–8-second finite flood**. The gate can visibly release automatically in this opening; later direct world gates can be introduced as a new verb. If a release button remains, it is one large, unambiguous action. The flood visibly chooses between the real lower routes. It cannot follow an answer-key route or count as captured before reaching the safe basin/outflow.
 
-**A satisfying win:** the tank reaches its marked line, water trickles into roots, dusty ground darkens, olives perk up and a short chime/splash resolves the run. Keep the landscape visible. Offer a nearby next landscape, not a large result spreadsheet. Show a concise optional water ledger after the action, rather than asking a beginner to monitor several unrelated counters.
+**A forgiving miss:** water reaches a courtyard, splashes locally and the scene freezes at the first decisive visible failure. One sentence names the cause, for example “המים זרמו אל החצר הנמוכה.” Keep the offending flow, house and channel in view. One clearly described recovery action restores the finite flood and returns to the plan; if it undoes the last stroke, refund exactly that stroke. Do not ambiguously combine 'preserve the plan' and 'undo the plan' in the same copy. The player can make the next correction immediately, without a reset menu or a silent paused-edit dead end.
 
-**Progressive unlock:** first establish channel shaping. Then add one competing lower route; then one chunky directly grabbed gate for a narrower reach; then a visibly porous surface. Add groundwater, treatment, reuse and salt only after each new mechanism has a short playable demonstration. Keep 24 missions as the full scope, but earn each added verb through prior play. Reuse the reliable conservation layer only where its pacing and geometry serve the new interaction.
+**A satisfying win:** the entire required flood has passed, all three homes remain safe, and actual water visibly reaches the marked safe basin or outflow. The safe pool rises or the outfall carries the wave away; the water source visibly falls. A short chime and a small world celebration resolve the rescue. The homes do not show final completion checks before the wave has passed. A nearby next scene offers a different threatened route, not a results spreadsheet.
 
-**Geography remains causal:** changing gradient changes the route; a courtyard lower than the intended outlet receives water; permeability transfers the same water and tracers into groundwater; pumping uses an existing store; a membrane splits real feed into product and brine; reuse retains destination restrictions. Shapes, texture and labels accompany color. No quiz gate, destination-answer switch or technology that creates water is introduced.
+**Progressive unlock:** first establish bypass carving. Then add a competing low courtyard route; then a chunky directly grabbed gate to reduce a peak; then a visibly porous surface or temporary storage. Add pumping, treatment, reuse and salt only after each has a short physical demonstration. The full 24-mission scope remains; later missions protect farms, drinking supply and environmental reserves as well as homes. Each new mechanism earns its screen space.
 
-### What the new imagegen targets must prove
+**Geography remains causal:** gradient and hydraulic head change the route; a low courtyard receives water if the bypass cannot carry the peak; permeability transfers the same water and tracers into groundwater; pumping uses an existing store; a membrane splits real feed into product and brine; reuse retains destination restrictions. Shapes, texture and labels accompany color. No quiz gate, destination-answer switch or technology that creates water is introduced.
 
-1. A cold opening where the source, the dry goal and the single manipulable ground feature are identifiable at a glance, with the initial drag affordance legible at phone scale.
-2. The same framing during the first two seconds of a short pulse: readable water front, depth, wet soil and destination response.
-3. A funny but clear miss with the actual spill site visible and a correction gesture possible; the world is not hidden by a modal.
-4. A successful fill/recovery of the landscape that is visually more rewarding than a changed counter.
+### Physical and feedback pitfalls to prevent
 
-Use these as gameplay contracts, then compare actual real-time play against them. A richer canyon background alone will not fix the input contract or waiting.
+1. **'Nothing happened' cannot rescue the village.** Require a real released flood and an actual safe-basin/outflow quantity. A closed gate, permanently stranded source or frozen clock must not satisfy a final all-homes-safe verdict. Automatic opening release is the clearest introduction.
+2. **The bypass must work hydraulically.** Its entry must present suitable lower head and enough conveyance capacity at the authored peak. A decorative branch or colored route with an uphill sill will reproduce the old confusion. If a narrow bypass legitimately overflows, show that exact restriction and spill.
+3. **Safe storage must have a physical destination.** Use a lower bed and finite capacity; count retained surface water in its actual footprint or cumulative explicit safe boundary outflow. Do not silently extract unlimited water at the bypass mouth while drawing a distant basin filling. If a basin overtops, account for and show the overflow.
+4. **Homes and hazard detection must occupy the same place.** The dangerous courtyard/footprint, water surface and house foundation must agree. Use an authored meaningful depth/exposure threshold; a numerical wet speck should not become an unexplained instant loss. A visible splash can be playful without depicting harm to inhabitants.
+5. **Freeze and retry must conserve state.** Freeze stops transport and input; it does not erase remaining water, salt or pollutants. A retry restores a single finite pulse. Earth refunds follow the stated Undo scope, with no extra charges for a retained stroke.
+6. **Safety is an outcome, not the initial condition.** Three initially dry houses are not already a win. Use outlined/at-risk home markers while the wave is pending, then resolve them after the relevant hazard interval and safe-volume condition.
+7. **Short waves still need complete evaluation.** Retune event rates/time coherently so the full relevant flood and any second pulse resolve in the promised time. Do not shorten the view by declaring victory before delayed flooding, quality mixing or depletion.
+
+### What the new rescue imagegen targets must prove
+
+1. A cold opening where the held flood, endangered homes, safe destination and single editable sand feature are identifiable at phone scale.
+2. The same framing during the first two seconds: a strong water front visibly diverted along the actual lower bypass while the homes remain in view.
+3. A miss with real contact at a home/courtyard, one specific cause caption and one recovery action; the world remains visible.
+4. A completed rescue with the finite source depleted appropriately, safe basin/outflow visibly receiving water and all three homes clearly protected.
+
+Use these as gameplay contracts, then compare ordinary real-time input with the targets. Richer cliffs alone will not fix a mismatched gesture or a long passive wait.
 
 ## Five concrete newcomer acceptance cases for the rebuild
 
@@ -100,17 +114,17 @@ These are proposed future acceptance cases, not passed tests. Browser timing can
 
 | Case | Setup and ordinary action | Observable pass condition |
 |---|---|---|
-| **1. Understand and act without instruction** | Fresh profile, opening shown for five seconds; no README, Hint, spoken help or developer controls | The newcomer can point to the water source and goal, say what they are trying to achieve, and make a useful carving gesture within **15 seconds**. The first screen exposes one necessary world verb. Source, goal and touch target remain readable at 390 × 844. |
+| **1. Understand and act without instruction** | Fresh profile, rescue opening shown for five seconds; no README, Hint, spoken help or developer controls | The newcomer can point to the flood, threatened homes and safe destination, say they must divert water, and make a useful bypass-carving gesture within **15 seconds**. The first screen exposes one necessary world verb. Source, goal and touch target remain readable at 390 × 844. |
 | **2. One gesture feels dependable** | Try a reasonable drag on the soft earth; also tap the visible wheel/rock before that interaction is unlocked | A continuous drag creates a visibly connected usable cut in **one pass**, with immediate deformation and feedback (target ≤ **200 ms**). An unavailable prop gesture never silently spends earth. Cost is previewed or clearly acknowledged, Undo refunds it, and no hidden second depth pass is required for the opening. |
-| **3. A short wave pays off the plan** | Let go after a valid opening stroke and watch at normal speed | The leading edge reacts within **one second**; the destination responds within **three seconds**; the whole first wave resolves in **under 10 seconds**. A player can attempt two different plans within **30 seconds**. A visible tank line, wet soil and plant change communicate progress without reading raw units. |
-| **4. A mistake teaches a correction** | Make a plausible downhill cut toward the lower courtyard or spill basin | The physical spill is readable and freezes promptly. One sentence names this actual cause; the affected place remains visible and editable. A newcomer can make a corrective stroke and start another wave with **one recovery action**, without a mode dead end, reset-menu hunt or double earth charge. The retry's finite water and tracer ledgers remain correct. |
-| **5. The next puzzle adds interest, not interface homework** | After two short drainage successes, present one new porous patch using the same carve gesture | The added material is visually different; its lower surface flow and increased groundwater store are linked by visible feedback. The player can explain the observed change in their own words, with no answer menu. Only this new mechanism is introduced. Record whether the player voluntarily chooses another attempt/landscape and why; absence of that desire is a reason to revise the loop, not to expand the campaign. |
+| **3. A short wave pays off the plan** | Let go after a valid opening stroke and watch at normal speed | The leading edge reacts within **one second**; the destination responds within **three seconds**; the whole first wave resolves in **under 10 seconds**. A player can attempt two different plans within **30 seconds**. A strong diverted wave, visible safe-pool/outflow progress and dry homes communicate progress without a numerical dashboard. Closing the gate or leaving the source stranded cannot win. |
+| **4. A mistake teaches a correction** | Make a plausible cut toward the lower courtyard, leaving the safe bypass inadequate | The physical spill is readable and freezes promptly. One sentence names this actual cause; the affected place remains visible and editable. A newcomer can make a corrective stroke and start another wave with **one recovery action**, without a mode dead end, reset-menu hunt or double earth charge. The retry's finite water and tracer ledgers remain correct. |
+| **5. The next puzzle adds interest, not interface homework** | After two short rescue successes, present one porous bypass bed using the same carve gesture | The added material is visually different; its lower surface flow and increased groundwater store are linked by visible feedback. The player can explain the observed change in their own words, with no answer menu. Only this new mechanism is introduced. Record whether the player voluntarily chooses another attempt/landscape and why; absence of that desire is a reason to revise the loop, not to expand the campaign. |
 
 Do not equate a solved fixture, low console error count, polished target image or a spectator's correct explanation with enjoyment. The rebuild should first make a small number of ordinary actions feel clear and worth repeating, then sustain that quality across the full campaign.
 
-## Review of the new opening target and plan
+## Historical review of the first garden candidate (superseded by rescue preference)
 
-Reviewed `docs/rebuild/mockups/01-actionable-opening.png` and `PLAN.md` before implementation. The new target is a substantial compositional improvement: a large upstream reservoir, broad contrasting sand interruption and visibly thirsty garden form one scene. The hand is near the actual editable material; the gate is large enough to read as machinery. Rounded limestone and ochre soil establish a more convincing catchment than the old square slab. The camera does not require the player to orbit before seeing the action.
+Before the human selected flood rescue, reviewed `docs/rebuild/mockups/01-actionable-opening.png` and `PLAN.md` before implementation. This garden-focused candidate is now historical, not the approved rescue opening. The new target is a substantial compositional improvement: a large upstream reservoir, broad contrasting sand interruption and visibly thirsty garden form one scene. The hand is near the actual editable material; the gate is large enough to read as machinery. Rounded limestone and ochre soil establish a more convincing catchment than the old square slab. The camera does not require the player to orbit before seeing the action.
 
 This is a promising design target, not a usability pass. Resolve these points as the flowing and mistake targets are authored:
 
@@ -121,3 +135,70 @@ This is a promising design target, not a usability pass. Resolve these points as
 - **Make prop protection real.** PLAN correctly promises that a click on machinery cannot dig it. The next target and implementation need direct manipulation or a clear inactive response, rather than the old tool-dependent silent earth loss.
 
 The next image should make the water front and goal response readable in the first two seconds; the miss image should keep the actual spill site visible and correctable. Implementation should follow the completed design sequence and be judged against those specific moments.
+
+## Fresh ordinary-input audit of the first rescue build
+
+31 October 2026, development build on port 5302. This is a new interaction audit, separate from the legacy tests. New desktop and emulated-touch profiles were used. The new implementation and level layouts were deliberately left unread. Inputs followed visible objects and sand cues, with real elapsed time; no fixture coordinates, known plans, projection helper, hidden state, Hint or clock hook were used. Screen coordinates below were chosen from the rendered screenshot, not level data.
+
+### What improved and actually worked
+
+- Desktop opening communicates **save three homes** with a held flood, houses, a bypass and a safe basin. It uses one world verb and one prominent test button. The four-tool/operator panel from v1 is gone.
+- Clicking the obvious wheel at approximately screen `(500,165)` did not deform the ground. It responded “החול הכתום ניתן לחפירה. נסו לגרור בו.” This protects a reasonable exploratory action, though a gate-specific sentence would explain its role more directly.
+- Testing the first flood without carving caused actual visible water around the houses. The scene froze with “אופס… המים בחצר”, retained the evidence and offered one “ננסה שוב” action. No long modal hid the catchment.
+- That action returned immediately to planning. A deliberately rough single downhill stroke from the shown sand hand toward the existing bypass won the first complete normal-speed wave. The second desktop puzzle also won after two broad strokes through its two visible sand cues. Neither required precision clicks or repeated depth passes.
+- A 390 × 844 touch profile accepted a rough finger drag through the first visible sand patch and won the first normal-speed flood. Touch input did not need a separate tool mode.
+- The outcomes arrived on the ordinary approximately eight-second wave, not through a time hook. This removes the old 55-second first-attempt wait.
+
+These are useful first-use improvements. They do not establish sustained fun or student learning.
+
+### Blocking visual/usability findings
+
+| Priority | Finding from the actual build | Required correction before broad campaign work |
+|---|---|---|
+| **P0** | **Phone puzzle 1 hides the rescued homes.** All three actual homes are off the left edge; only a fragment of roof is visible. The three HUD home icons overlap the source reservoir. The player can win but cannot see what was protected or observe a failed courtyard route. | Fit the flood source, threatened home cluster, editable bypass and safe destination together. Recompose or rotate/scale the map for portrait; do not treat a cropped desktop camera as a phone layout. |
+| **P0** | **Phone puzzle 2 hides both endpoints.** The source is entirely off the right edge, safe basin entirely off the left, and both “פתחו תעלת מעקף” bubbles are clipped. Only the central ravine and homes are visible. | Use per-layout portrait framing that includes the required interaction chain. Keep cue text and the relevant touch patches inside safe screen bounds. Do not use remembered coordinates to claim it playable. |
+| **P1** | **Water looks like polygon/glass sheets.** Bright cell-edge lines and tall almost vertical teal surfaces dominate both successful bypass flows. During the uncarved attempt, turquoise patches visibly extended outside the upper island near the source. | Make the liquid surface, banks and falls read as a coherent flow. Clip/mask rendering to the actual terrain/water domain. Avoid visual mass floating over nonexistent ground. Preserve the real water stores while correcting the mesh/material representation. |
+| **P1** | **A successful cut is hard to perceive before testing.** The correct rough stroke removed the hand cue, but the before/after sand surface and channel opening were barely distinguishable at the fixed camera. The remaining cue still read “פתחו תעלת מעקף”. | Show a substantial bed change, darker exposed soil and a brief local acknowledgment. Once an opening is genuinely usable, update the local cue to invite the test. Do not imply readiness from any arbitrary gesture. |
+| **P2** | The safe-basin label says “מים מגיעים בבטחה” even during the attempt that visibly floods homes. | Clarify that this is partial basin arrival rather than an overall safety verdict. Reserve final safe/completed styling for the full rescue conditions. |
+
+The phone puzzle-2 interaction was intentionally stopped at the unreadable opening. It was not solved using remembered desktop placement. No campaign automation or rebuilt-rule test file was started after these findings.
+
+### Actual rescue audit evidence
+
+- `audit/rescue-00-desktop-opening.png`: desktop initial source, sand, homes and basin.
+- `audit/rescue-01-wheel-click.png`: harmless exploratory wheel click and feedback.
+- `audit/rescue-02-uncarved-wave.png`, `rescue-03-first-failure.png`: real uncarved flood and frozen cause.
+- `audit/rescue-04-imprecise-single-drag.png`, `rescue-05-single-drag-wave.png`, `rescue-06-single-drag-outcome.png`: one broad stroke and normal-time first success.
+- `audit/rescue-07-puzzle-two-opening.png` through `rescue-10-puzzle-two-outcome.png`: second desktop layout, broad gestures and success.
+- `audit/rescue-11-phone-opening.png` through `rescue-13-phone-touch-outcome.png`: working touch gesture with the protected homes offscreen.
+- `audit/rescue-14-phone-puzzle-two-opening.png`: cropped source, basin and cues; no phone puzzle-2 success claim.
+
+The next audit should re-check only the corrected framing, liquid appearance and pre-wave cut feedback first. Legacy 66 checks and current authored desktop witnesses cannot waive these visible failures.
+
+## Second rescue audit: framing fixed; multi-step recovery still blocked
+
+Same ordinary-input constraints, new touch profile at 390 × 844, corrected port-5302 build. No new scene/model code was read.
+
+- **Phone framing is substantially corrected.** Both opening maps now include the source, all three homes, editable interruptions and safe pond. The previous phone-2 missing-endpoints failure no longer applies. Decorative peripheral terrain can crop without hiding the rescue chain.
+- **The first phone rescue works with a rough single finger stroke.** A no-cut test visibly flooded the homes and froze; one recovery and a broad stroke through the visible sand cue then won the complete ordinary eight-second wave.
+- **Liquid appearance is improved.** The tested bypass no longer became a tall glass sheet; it read as a surface stream. The bright polygon/caustic pattern remains stylized, but the previous severe shoreline spikes were absent in this phone observation.
+- **Cuts are more visible.** The source interruption darkened to exposed clay and produced local chunks. The hand cue cleared after the useful stroke. This is better confirmation than the previous nearly unchanged surface.
+
+### Newly exposed recovery problem in phone puzzle 2
+
+The second map showed a first sand cue near the source. One rough stroke cleared it; the next cue appeared at the lower interruption (`rescue-r2-07-phone-second-stroke.png`). Testing at that point produced a quantity shortfall, with the old generic “בדקו את הספים, קצב השחרור והחלחול” caption. That attempt had visibly routed water safely through the first section, so retaining that useful stroke is the natural correction contract.
+
+Pressing **“ננסה שוב”** and then opening the lower cue produced a courtyard flood; the first source cue reappeared (`rescue-r2-10-phone-second-recovered.png`). The visible behavior indicates that recovery undid the previous valid first cut before the player made the second. This creates a plausible alternating failure: clear the first gap → miss the second → retry removes first → clear second → flood because first is closed.
+
+**Required before expansion:** normal retry must clearly restore the finite pulse while preserving useful terrain, with an explicit separate Undo for removing/refunding the last earth stroke. If a different recovery contract is intended, its visible wording and tutorial must make it unmistakable and must not turn the two-gap introduction into repeated loss of valid work. The current “try again” label does not communicate that a good stroke will be removed.
+
+The current quantity-shortfall caption also falls back to the old broad three-system checklist. A rescue-specific place/event explanation would support the second-gap correction much better. No new campaign tests or campaign success claim is based on this intermediate build.
+
+Second-audit captures are `audit/rescue-r2-00-phone-opening.png` through `rescue-r2-10-phone-second-recovered.png`. Phone puzzle 1 passed; phone puzzle 2 is not cleared by this audit until its ordinary recovery sequence works.
+
+
+## Human rejection of the guided-patch architecture
+
+The owner rejected the rescue prototype again because it amounts to clicking where the cue points and sometimes does not respond. This supersedes any partial technical pass above. The focused retry regression was stopped before completion; it is not a signoff. No campaign expansion or additional certification follows from these observations.
+
+The next concept is a freeform rescue sandbox: carve arbitrary soft terrain, place up to three freely positioned levee blocks, release a finite flood, protect three homes and deliver required water to a real safe outflow. It must support at least two materially different physical solutions, not preselected patches or a painted route. Its independent design review is in AGENCY_REVIEW.md.

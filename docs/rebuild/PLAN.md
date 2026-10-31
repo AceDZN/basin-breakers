@@ -1,20 +1,24 @@
-# Basin Breakers rebuild — make the action worth doing
+# Basin Breakers rebuild — short flood rescues
 
-Status: replanning and generated mockups, before implementation. The owner rejected v1 as ugly, strange, unclear, boring and difficult because of the experience rather than geography. This feedback supersedes the earlier delivery's UX claims. The v1 numerical tests remain useful conservation evidence; they do not establish approachability or enjoyment.
+Status: rescue mockups generated and inspected before rescue implementation; first playable rescue opening under independent ordinary-input review. The owner rejected v1 as ugly, strange, unclear, boring and difficult because of the experience rather than geography. This feedback supersedes the earlier delivery's UX claims. The v1 numerical tests remain useful conservation evidence; they do not establish approachability or enjoyment.
+
+## Human choice takes precedence
+
+The owner selected **short rescue puzzles: redirect a flood away from homes, with quick retries**, and named no specific reference game. This supersedes the earlier garden-first proposal. Selected implementation references are now `mockups/04-rescue-opening.png` and `05-rescue-payoff.png`. Garden mockups are retained as superseded exploration, not the current opening contract.
 
 ## What changes
 
-The game becomes a tactile water toy with short landscape puzzles. A close fixed camera shows a substantial reservoir, one clear patch of editable sand, and a visibly thirsty garden. Drag once to cut a chunky channel to its correct physical bed depth. Release a finite wave. It either races downhill and makes the garden visibly recover, or produces a funny, understandable local spill. One immediate rewind keeps the plan available to improve. No orbit requirement, four-tool selection, hidden excavation depth, exact-percent sliders or checkbox panel in the opening.
+The game becomes a tactile water toy with short landscape puzzles. A close fixed camera shows a held finite flood, three threatened homes, one clear sandy bypass and a large safe retention basin. Drag once to cut a chunky channel to its correct physical bed depth. Release a finite wave. It either takes the bypass into safe finite storage while the homes stay dry, or produces a visible, understandable courtyard flood. One immediate rewind keeps the plan available to improve. No orbit requirement, four-tool selection, hidden excavation depth, exact-percent sliders or checkbox panel in the opening.
 
 The tone is Mediterranean: sculpted continuous limestone and ochre sand, deep turquoise water, dark olive foliage, copper-blue sluice, warm directional light. Replace the pale checkerboard slab and repeated tree field. Shapes carry the scene; there is no dependence on photographic microdetail. Reuse the two owned Tripo machines where they read clearly; new model spending is not necessary to fix the game.
 
 ## First 30 seconds
 
-- **0–3s:** the camera already frames source, sand interruption, downhill channel and large dry destination. A short Hebrew instruction sits at the sand: `גררו בחול`. Nothing requires opening a menu.
+- **0–3s:** the camera already frames source, threatened homes, sandy bypass and empty safe basin. A short Hebrew instruction sits at the sand: `פתחו תעלת מעקף`. Nothing requires opening a menu.
 - **3–7s:** a broad pointer/touch stroke visibly lowers the whole sand interruption. Sand chunks pop, the channel has readable depth, and the gate button responds. One pass performs one understandable excavation; repeated precision clicks are removed.
-- **7–15s:** `שחרור מים` releases a short finite wave. Water moves as a prominent ribbon with a foamy leading edge; the source visibly falls. The destination fills against a visible marker. Wet banks darken and drooping foliage opens/greens in response to actual delivery.
-- **15–20s:** a short chime and `זה זורם!`; the next basin is one action away. This is a brief outcome, not a statistics modal covering the world.
-- **20–30s:** a small house at a lower fork creates the first meaningful choice. A mistaken straight route makes a local splash. Flow freezes at the cause with `המים הגיעו לחצר`; `ננסה שוב` restores the finite pulse immediately. Failure spends no lives and requires no long replay.
+- **7–15s:** `בדיקת השיטפון` releases a short finite wave. Water moves as a prominent ribbon with a foamy leading edge; the source visibly falls. The destination fills against a visible marker. Wet banks darken, the basin rises to its physical marker, and the three homes visibly stay dry.
+- **15–20s:** a short chime and `הבתים בטוחים!`; the next basin is one action away. This is a brief outcome, not a statistics modal covering the world.
+- **20–30s:** a changed source and a lower village branch create the next rescue problem. A mistaken straight route makes a local splash. Flow freezes at the cause with `המים הגיעו לחצר`; `ננסה שוב` restores the finite pulse immediately. Failure spends no lives and requires no long replay.
 
 These timings are targets to verify in actual play, not existing evidence. Success still evaluates all required finite pulses and constraints; the whole model event is compressed to roughly6–8 real seconds, not declared won early.
 
@@ -31,7 +35,7 @@ These timings are targets to verify in actual play, not existing evidence. Succe
 
 Keep the independent finite-volume solver and its water, salt, pollutant and reuse provenance ledgers. Surface head determines flow. Soil infiltration transfers the same water and tracers to porous-rock storage. Pumping cannot create water; source control prevents polluted recharge. Desalination consumes energy and separates product plus brine; wastewater treatment preserves salt/reuse provenance and has a supported-pollutant residual. These become spatial consequences, not reading gates.
 
-Garden greening is expressive game feedback for delivered water, not a claim that ecological restoration or mature plant growth happens in seconds. Maps, storage, event time and units stay schematic. Aquifer graphics must depict water within porous material.
+Any later garden greening is expressive feedback, not a claim that ecological restoration or mature plant growth happens in seconds. Maps, storage, event time and units stay schematic. Aquifer graphics must depict water within porous material.
 
 ## Campaign progression:24 basins after a clear opening
 
@@ -63,4 +67,13 @@ V1's24 numerical fixtures are starting scientific test cases, not a mandate to k
 - The source, water front, destination and success transformation dominate the scene. Text labels are secondary; mobile controls remain comfortably usable.
 - Every campaign success is backed by actual physical stores and quality, and model invariants remain verified independently.
 
-The owner was asked for preferred tone and a reference game while research continued. Until further steering arrives, the working direction is the tactile water toy described above.
+The owner was asked for preferred tone and a reference game while research continued. The owner explicitly selected flood rescue. The current opening must follow that choice, rather than requiring approval of the superseded garden direction.
+
+
+## Rescue implementation constraints and current findings
+
+The first two ordinary desktop plays found the action/retry loop substantially clearer: a protected wheel, a rough single drag, actual courtyard failure and an8-second successful wave. The first phone pass exposed cropped homes/source/pond, and liquid sheets interpolated up dry banks. These were blockers, not acceptable art simplifications. The current review pass follows fixes for per-level critical-object framing, wet-only water-head interpolation, a three-cell authoritative bed/plug, complete one-pass cuts, a real gap in the reservoir wall, larger finite source/basin and visible cut-color/dust feedback.
+
+Win requires actual safely received floodwater and dry modeled courtyard exposure after the complete event. Closing the source cannot win. Initial source water is finite; the retention sink has an explicit finite capacity. A full basin stops taking more water. Courtyard floor/footprint is represented in the same heightfield. Freeze stops time/transfers without deleting stores. Retry restores the finite pulse; Undo returns only the actual last earth/device change and cost.
+
+The first source event is authored in original game units; its complete model horizon is compressed into8 real seconds. Broadening the bed changed storage and conveyance, so volumes/timings were re-authored and rechecked rather than drawing a wide cosmetic ribbon over the old narrow solver. Legacy66 tests remain conservation regressions, not rebuilt UX evidence.
