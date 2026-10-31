@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Fill closes an arbitrary existing trench and refunds actual earth.",
+    "Undo reverses fill geometry and refund.",
+    "Undo during a running wave cancels it, restores the last edit and finite source.",
+    "Reload preserves real Undo history; one Undo reverses one edit.",
+    "Selecting Fill during pause returns directly to planning.",
+    "Real phone touch fill refunds; touch Undo restores excavation without scrolling.",
+    "Visible new-plan control is reversible through Undo."
+  ],
+  "errors": []
+}

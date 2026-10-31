@@ -1,0 +1,70 @@
+{
+  "mode": "failed",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 40.00000000000074,
+    "released": 40.0000000000003
+  },
+  "homes": [
+    {
+      "at": [
+        10,
+        16
+      ],
+      "safe": true,
+      "peak": 0.1512677633476813,
+      "exposure": 0
+    },
+    {
+      "at": [
+        15,
+        17
+      ],
+      "safe": false,
+      "peak": 0.4066404147602522,
+      "exposure": 1.0652583826870337
+    },
+    {
+      "at": [
+        20,
+        15
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 23.256895616706778,
+  "target": 64,
+  "time": 10.000000000000075,
+  "duration": 100,
+  "earthLeft": 155,
+  "earthBudget": 155,
+  "excavatedCells": 0,
+  "walls": [],
+  "wallStock": 3,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 1,
+  "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+  "conservation": {
+    "water": 7.389644451905042e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "tool": "dig",
+  "movingWall": null,
+  "angle": 0.7853981633974483,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

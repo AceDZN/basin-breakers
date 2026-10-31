@@ -1,0 +1,44 @@
+✔ two independent geometries carry most water through opposite flanks and both rescue the homes (338.564875ms)
+✔ east: rough half-cell trench variation still rescues without any route answer check (-0.5) (257.979541ms)
+✔ east: rough half-cell trench variation still rescues without any route answer check (0.5) (133.51025ms)
+✔ west: rough half-cell trench variation still rescues without any route answer check (-0.5) (128.066041ms)
+✔ west: rough half-cell trench variation still rescues without any route answer check (0.5) (124.407708ms)
+✔ east: continuous free wall-position variation remains viable (99.818791ms)
+✔ west: continuous free wall-position variation remains viable (91.5645ms)
+✔ levees have a causal role: either trench alone and the same walls without a trench fail (296.875375ms)
+✔ an unanticipated one-wall variation is accepted when its geometry physically works (89.363375ms)
+✔ no edit releases the whole flood and receives water but fails actual courtyard safety (86.12375ms)
+✔ closed inlet cannot win merely because all homes remain dry (83.452084ms)
+✔ a disconnected decorative ditch has no magical effect on the approaching flood (169.401ms)
+✔ courtyard-directed trench worsens the real home exposure (74.875ms)
+✔ three levees across the valley are not an automatic safety answer (88.152291ms)
+✔ a short dead-end channel can keep homes safe but fails actual safe receipt (83.0075ms)
+✔ a source pit retains real water and cannot receive credit for hidden drainage (70.63475ms)
+✔ arbitrary unmarked soil points change actual bounded terrain, rather than a selected route (1.05525ms)
+✔ stroke interpolation, repeated overlap and full earth cost are dependable (1.127416ms)
+✔ protected and over-budget gestures leave construction unchanged (0.657ms)
+✔ free wall place/move/remove uses actual cells and exact inventory with no ghost wall (0.643417ms)
+✔ invalid wall overlaps/footprints/stock/unknown move reject without history or inventory cost (0.800083ms)
+✔ retry restores water while preserving useful partial terrain; Undo alone reverses the last construction (77.261417ms)
+✔ same final geometry with reversed stroke/wall input order yields the same physical result (160.119833ms)
+✔ nonzero salt/pollutant/reuse tracers remain conserved through the new coast outflows (83.246ms)
+✔ new clock shows first25 model seconds over5 real seconds, then completes remaining75 over3 (80.874958ms)
+✔ flood freeze exposes actual consequence for at least2 real seconds and retains mass (8.716708ms)
+✔ small public time steps preserve outcome and close quantities across the full event (186.769958ms)
+✔ valid saved construction restores a fresh pulse without aliasing input or inventing history (87.570125ms)
+✔ fill brush refunds only restored excavation, previews without mutation, and Undo restores the cut (1.11375ms)
+✔ fill respects source, homes and current wall cells, including their preview crests (0.77725ms)
+✔ empty, invalid and unexcavated fill gestures create no cost or history (1.408417ms)
+✔ Undo escapes both running and paused waves and reverses one construction at a time (7.291542ms)
+✔ legacy saves never turn Undo into a destructive whole-plan wipe (12.725834ms)
+✔ persisted history roundtrips the actual last action and preserves removed-wall IDs (4.741333ms)
+✔ invalid or excessive persisted history is rejected atomically (11.482667ms)
+✔ malformed saved construction is rejected atomically across depth/protection/budget/wall limits (4.249833ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3359.099083

@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "Untouched open map has no marked answer sites.",
+    "Arbitrary broad soil edit follows real stroke; repeated overlap spends nothing.",
+    "Undo restores excavation and budget.",
+    "Protected source click costs nothing.",
+    "Existing levee moves and rotates without duplicating stock.",
+    "Remove returns actual levee to tray; Undo restores it.",
+    "Pause blocks deterministic and real-time flow.",
+    "Help/clear exits paused flow into valid planning.",
+    "Actual no-edit flood freezes visibly; retry restores finite pulse.",
+    "Retry retains actual partial plan and spent earth.",
+    "Reload restores validated construction with a fresh finite pulse.",
+    "Fullscreen and Escape work.",
+    "Real touch drag edits arbitrary soil without scrolling; touch Undo refunds.",
+    "Touch levee rotate/place works."
+  ],
+  "errors": []
+}

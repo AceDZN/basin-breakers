@@ -36,3 +36,9 @@ The goal is to keep all three courtyards safe while the full finite event is rel
 6. Inspect new generated06/07mockups **before dependent implementation**, then compare actual opening, chosen-plan flow and failure at the same camera/viewport. Do not waive broken liquid, buried houses or a fixed-answer interaction because numerical tests pass.
 
 Internal alternatives establish feasibility, not enjoyment. The human must be able to invent a plan and want another attempt; direct feedback takes precedence over scripted victories.
+
+## Human recovery correction after the first build
+
+The human then reported being unable to undo excavation and getting stuck. Active-wave Undo and reload-history loss were real recovery weaknesses. The current shovel now has a separate free Fill tool: draw over any previous excavation to restore bed and refund actual earth. Fill is itself undoable. Selecting an edit tool during a running/paused wave returns to safe planning. Undo during a wave restores the last actual construction and finite pulse. The latest32 real action snapshots are validated and persisted; old saves without history remain intact and can be repaired through Fill. A visible clear button is reversible. Never present wiping an entire legacy saved plan as undoing its unknown last stroke.
+
+The fixed opening observation clock shows the first25 model seconds over5 real seconds and settles the remaining75 over3. A real flood exposure is recorded immediately, with failure freeze after at least2 real seconds so the player can see its cause. These are presentation/time choices, not changed hydraulic routes or invented water.
