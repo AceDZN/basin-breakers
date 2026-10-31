@@ -22,3 +22,13 @@ Original prompt: Build the independent Basin Breakers 24-level Hebrew 3D geograp
 - Remaining finalization: inspect latest stable-preview skill-client screenshot, finalize art/QA docs, commit/push final verification checkpoint. Deliberate limits: compact stylized terrain with compressed relief, lumped aquifer, static deposited-bed obstruction; no full fluid/SPH/Darcy/suspended-sediment model or student-learning claim.
 - Stable-preview develop-web-game skill client completed and screenshot opened/inspected: two real clicks cut1.4units, Space released finite water; earth12.6 and movingflow state agree, no consoleerror file. Latestbuildpassed after Hebrew caption typo correction. Both authorized servers confirmed listening5302/4302.
 - Delivery complete: finalized PLAYTEST/visual/assets/curriculum docs and curated capture/state evidence. Independent QA verifies66modeltests,24UIwins,six mistake/recovery cases and18controlchecks (including cutaway/inspection/Rterrain preservation). Both importedTripo props are visibly verified. No required implementation work remains; future studenttesting/art refinement and productiondeployment are separate work.
+
+## Human rejection and rebuild —31 October2026
+
+Human feedback: current game is weird/ugly, confusing, boring and too hard because of gameflow, controls and graphics. V1 test passes did not establish a good experience. Full replan/rebuild requested, with NEW imagegen mockups before code and read-only review of other Workbook games.
+
+- Re-engaged art/Tripo and independent gameplayQA helpers. No new Tripo credit use.
+- Reviewed current user-visible narrow screen: earth nearly depleted with no useful flow; freshQA confirms a click on the gate silently digs/spends earth. A first wave lasts55model seconds. These are first-use design failures.
+- Read-only references: BankShot/Frost&Flame/SentenceFoundry/Ringwarden/CleanFlow/SlopeSled. Key pattern: dominantphysicalobject,oneinitialverb,localconsequence,shortpayoffandone-actionretry. No other repo edits or cross-chat messaging.
+- New plan docs/rebuild/PLAN.md: fixedclosecamera,continuoussculptedlimestone+sand,onepassdrag,bigfinitewave6–8realsec,visiblegardenrecovery,forgivingundo,progressiveworldcontrols,retaincausalgeography/conservationand24mission scope.
+- Three new built-inimagegen targets generated/inspected before anysourcechanges. QA requested targeted corrections: downhillgesturecue,physicalgardenfillmarker,uprightgreenpayoff; arteditingnow. Do not startimplementationuntil correctedtargetsinspected.
