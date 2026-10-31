@@ -1,0 +1,111 @@
+{
+  "mode": "won",
+  "level": 14,
+  "title": "הבתים המפוזרים",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 0,
+    "released": 80,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        7,
+        15
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        14,
+        18
+      ],
+      "safe": true,
+      "peak": 0.1796745152429476,
+      "exposure": 0
+    },
+    {
+      "at": [
+        22,
+        14
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 68.22781063404773,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 100,
+  "duration": 100,
+  "earthLeft": 69.39999999999999,
+  "earthBudget": 145,
+  "excavatedCells": 54,
+  "walls": [
+    {
+      "id": 1,
+      "x": 14.333333617318328,
+      "z": 14.000000159397267,
+      "angle": 0
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "כל שלושת הבתים בטוחים!",
+  "conservation": {
+    "water": 4.547473508864641e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 14,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

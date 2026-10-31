@@ -1,0 +1,110 @@
+{
+  "mode": "won",
+  "level": 8,
+  "title": "שני גלים",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 0,
+    "released": 80,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 38,
+        "rate": 4,
+        "delay": 0
+      },
+      {
+        "volume": 42,
+        "rate": 4,
+        "delay": 34
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        10,
+        14
+      ],
+      "safe": true,
+      "peak": 0.2268116000611613,
+      "exposure": 0.006216515725726945
+    },
+    {
+      "at": [
+        15,
+        18
+      ],
+      "safe": true,
+      "peak": 0.17638842100109586,
+      "exposure": 0
+    },
+    {
+      "at": [
+        20,
+        16
+      ],
+      "safe": true,
+      "peak": 0.003940582825646293,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 66.37990542618957,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 100,
+  "duration": 100,
+  "earthLeft": 80.8,
+  "earthBudget": 155,
+  "excavatedCells": 53,
+  "walls": [
+    {
+      "id": 1,
+      "x": 15.00000065831374,
+      "z": 13.999999036214085,
+      "angle": 0
+    }
+  ],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "כל שלושת הבתים בטוחים!",
+  "conservation": {
+    "water": -4.689582056016661e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 8,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

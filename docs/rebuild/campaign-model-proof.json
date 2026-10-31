@@ -1,0 +1,1397 @@
+{
+  "kind": "independent full-horizon model proof, not UI/newcomer evidence",
+  "levels": [
+    {
+      "level": 1,
+      "title": "הצילו את הכפר",
+      "released": 80,
+      "total": 80,
+      "received": 70.7903237971833,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.17433326638138288,
+        0.16979055007446275,
+        0.036276035346452
+      ],
+      "earth": 68.59999999999998,
+      "budget": 155,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 49,
+      "flux": {
+        "west": 8.794613078362877,
+        "center": 16.276062048452793,
+        "east": 53.90030623709293
+      },
+      "ledgerError": {
+        "water": 2.7000623958883807e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          3.7705773884253313,
+          0
+        ],
+        "peaks": [
+          0.16727482362242263,
+          0.4259456988055513,
+          0
+        ],
+        "released": 80,
+        "received": 79.9999995359988,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.8421709430404007e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 2,
+      "title": "מים ממערב",
+      "released": 80,
+      "total": 80,
+      "received": 70.58547539582956,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.2038351663596528,
+        0.17410834781447573,
+        0
+      ],
+      "earth": 64.39999999999996,
+      "budget": 155,
+      "walls": 0,
+      "stock": 2,
+      "excavatedCells": 46,
+      "flux": {
+        "west": 56.97948189632688,
+        "center": 18.997400833933746,
+        "east": 3.288759859750733
+      },
+      "ledgerError": {
+        "water": 2.4158453015843406e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          1.6874240740226332,
+          0.9386012910156534,
+          0
+        ],
+        "peaks": [
+          0.31727188046249416,
+          0.279987998495282,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999793804034,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.836930773104541e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 3,
+      "title": "מים ממזרח",
+      "released": 80,
+      "total": 80,
+      "received": 70.26661617869622,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0.03549369289453735,
+        0.03646722733885126
+      ],
+      "peaks": [
+        0,
+        0.22924281938233565,
+        0.23075287123369292
+      ],
+      "earth": 64.39999999999996,
+      "budget": 145,
+      "walls": 0,
+      "stock": 3,
+      "excavatedCells": 46,
+      "flux": {
+        "west": 0.018760170875547724,
+        "center": 17.81208337522273,
+        "east": 61.54722087108378
+      },
+      "ledgerError": {
+        "water": 4.263256414560601e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          1.9791884914343802,
+          2.5591872398827173
+        ],
+        "peaks": [
+          0,
+          0.3317509073152472,
+          0.35739779335611893
+        ],
+        "released": 80,
+        "received": 79.99999814688235,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.126388037344441e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 4,
+      "title": "שלושה במורד",
+      "released": 80,
+      "total": 80,
+      "received": 68.40461692555485,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.18006172276048854,
+        0.13635243622905172,
+        0.19129629092618344
+      ],
+      "earth": 72.8,
+      "budget": 140,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 52,
+      "flux": {
+        "west": 3.8715685955456,
+        "center": 17.297888218256016,
+        "east": 57.525279633139704
+      },
+      "ledgerError": {
+        "water": 1.4210854715202004e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          2.847470081308648,
+          2.5930354889092153,
+          2.2088483169167126
+        ],
+        "peaks": [
+          0.383121620278175,
+          0.37252689100095804,
+          0.35014590736866114
+        ],
+        "released": 80,
+        "received": 79.99999952536791,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.694822225952521e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 5,
+      "title": "גב האבן",
+      "released": 80,
+      "total": 80,
+      "received": 69.49480773194799,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0.03933660306286751,
+        0.0011763328060846194,
+        0
+      ],
+      "peaks": [
+        0.23388569276996476,
+        0.2212299055316366,
+        0.0322605024938893
+      ],
+      "earth": 68.59999999999998,
+      "budget": 155,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 49,
+      "flux": {
+        "west": 6.506791690291429,
+        "center": 18.950326049386106,
+        "east": 53.51386844059451
+      },
+      "ledgerError": {
+        "water": 2.984279490192421e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0.8185929783056353,
+          3.5267729294000336,
+          0
+        ],
+        "peaks": [
+          0.27971882655958225,
+          0.4102623163103661,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999951762194,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 4.405364961712621e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 6,
+      "title": "הכתף הנמוכה",
+      "released": 80,
+      "total": 80,
+      "received": 76.54705452625909,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.08174244399005925,
+        0.2053314453523725,
+        0.07723318124136362
+      ],
+      "earth": 74.2,
+      "budget": 135,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 53,
+      "flux": {
+        "west": 2.0376439009538116,
+        "center": 13.170688841832607,
+        "east": 63.98654202603659
+      },
+      "ledgerError": {
+        "water": 2.4158453015843406e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          2.4468667055474893,
+          0
+        ],
+        "peaks": [
+          0.15639380832913646,
+          0.3571413517652473,
+          0.012442106818117733
+        ],
+        "released": 80,
+        "received": 79.99998543817429,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.1316282072803006e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 7,
+      "title": "סוללה אחת",
+      "released": 80,
+      "total": 80,
+      "received": 68.85219093049699,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0.03862719636913589,
+        0,
+        0
+      ],
+      "peaks": [
+        0.23283916547411077,
+        0.175801856141769,
+        0.012198761057137445
+      ],
+      "earth": 67.19999999999997,
+      "budget": 125,
+      "walls": 1,
+      "stock": 1,
+      "excavatedCells": 48,
+      "flux": {
+        "west": 60.205168007183396,
+        "center": 17.077952298094917,
+        "east": 1.7848745768950482
+      },
+      "ledgerError": {
+        "water": 1.9895196601282805e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          3.359982157963283,
+          0
+        ],
+        "peaks": [
+          0.2083929312851422,
+          0.40191693995414457,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999953951061,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.8421709430404007e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 8,
+      "title": "שני גלים",
+      "released": 80,
+      "total": 80,
+      "received": 65.77217540175027,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0.007622722517638675,
+        0,
+        0
+      ],
+      "peaks": [
+        0.22782463797111588,
+        0.1746939217117459,
+        0.00023589807171409092
+      ],
+      "earth": 75.60000000000001,
+      "budget": 155,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 54,
+      "flux": {
+        "west": 52.29169089705316,
+        "center": 21.87344395658719,
+        "east": 2.7977671276803595
+      },
+      "ledgerError": {
+        "water": -6.110667527536862e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          2.920526935876439,
+          0
+        ],
+        "peaks": [
+          0.1754211140363844,
+          0.38382319538695636,
+          0
+        ],
+        "released": 80,
+        "received": 79.99996154594228,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": -5.400124791776761e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 9,
+      "title": "הקרקע ששותה",
+      "released": 80,
+      "total": 80,
+      "received": 63.66804388670806,
+      "target": 60,
+      "recharged": 5.406981362613388,
+      "infiltrationGoal": 2,
+      "exposure": [
+        0,
+        0.08234093252357123,
+        0
+      ],
+      "peaks": [
+        0.19611153800033984,
+        0.240181057749032,
+        0
+      ],
+      "earth": 72.8,
+      "budget": 155,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 52,
+      "flux": {
+        "west": 66.58874644342576,
+        "center": 5.409726905515661,
+        "east": 5.077269240729978
+      },
+      "ledgerError": {
+        "water": -1.0516032489249483e-12,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0.7767439158032754,
+          3.686159886281253,
+          0
+        ],
+        "peaks": [
+          0.277832038594335,
+          0.4182037741006525,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999952044713,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.5579538487363607e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 10,
+      "title": "חוף תלול",
+      "released": 80,
+      "total": 80,
+      "received": 76.60483672104301,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.19966734105153666,
+        0.13724949736579314,
+        0.002838356483342693
+      ],
+      "earth": 95.20000000000009,
+      "budget": 140,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 68,
+      "flux": {
+        "west": 60.16814002134643,
+        "center": 14.774637320706018,
+        "east": 3.905119739829689
+      },
+      "ledgerError": {
+        "water": 3.694822225952521e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          4.794800627610886,
+          0.9218568408338662,
+          0
+        ],
+        "peaks": [
+          0.4730307419726802,
+          0.2827449239002459,
+          0.006230854653091714
+        ],
+        "released": 80,
+        "received": 79.99999948146534,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.552713678800501e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 11,
+      "title": "מעבר בין סלעים",
+      "released": 80,
+      "total": 80,
+      "received": 71.92025312361,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0.013084694646815831,
+        0.0003517527828100955,
+        0
+      ],
+      "peaks": [
+        0.2270188733983172,
+        0.22048619479651108,
+        0
+      ],
+      "earth": 74.2,
+      "budget": 150,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 53,
+      "flux": {
+        "west": 0,
+        "center": 32.12066175826924,
+        "east": 42.223230788378714
+      },
+      "ledgerError": {
+        "water": 2.2737367544323206e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          1.4454040357239133,
+          3.2483708543138365,
+          0
+        ],
+        "peaks": [
+          0.3112902709554271,
+          0.3919176304883829,
+          0
+        ],
+        "released": 80,
+        "received": 79.99998013120404,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.410605131648481e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 12,
+      "title": "מפרץ ארוך",
+      "released": 80,
+      "total": 80,
+      "received": 68.42515572471738,
+      "target": 60,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0.006104738965860911,
+        0
+      ],
+      "peaks": [
+        0.19085301830577825,
+        0.22396846037152235,
+        0.05492213924310646
+      ],
+      "earth": 72.8,
+      "budget": 120,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 52,
+      "flux": {
+        "west": 54.897317300636,
+        "center": 15.740771728161965,
+        "east": 8.322895566647267
+      },
+      "ledgerError": {
+        "water": 1.4210854715202004e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          5.087139984568154,
+          0
+        ],
+        "peaks": [
+          0.19234945111448717,
+          0.4889594032596774,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999952746988,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.5579538487363607e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 13,
+      "title": "גשם קצר וחזק",
+      "released": 84,
+      "total": 84,
+      "received": 73.19777433215778,
+      "target": 66,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0.03706987453540237,
+        0.059388227672736424,
+        0
+      ],
+      "peaks": [
+        0.23750386131931997,
+        0.23807021840355402,
+        0.1505815039859049
+      ],
+      "earth": 72.8,
+      "budget": 150,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 52,
+      "flux": {
+        "west": 54.76037782527399,
+        "center": 17.02459556560229,
+        "east": 11.468824252553146
+      },
+      "ledgerError": {
+        "water": -3.410605131648481e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0.7608125274642691,
+          3.2260182065406595,
+          0
+        ],
+        "peaks": [
+          0.30768324966034316,
+          0.4679149295246044,
+          0.05969552109585684
+        ],
+        "released": 84,
+        "received": 83.99999976618328,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": -1.9895196601282805e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 14,
+      "title": "הבתים המפוזרים",
+      "released": 80,
+      "total": 80,
+      "received": 68.22746693517259,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0,
+        0.17933048990144637,
+        0
+      ],
+      "earth": 75.60000000000001,
+      "budget": 145,
+      "walls": 1,
+      "stock": 2,
+      "excavatedCells": 54,
+      "flux": {
+        "west": 53.44984240605764,
+        "center": 18.482892486768314,
+        "east": 7.130925907926026
+      },
+      "ledgerError": {
+        "water": 1.8474111129762605e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          3.20155579587358,
+          0
+        ],
+        "peaks": [
+          0,
+          0.39346677982383843,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999947750628,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.552713678800501e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 15,
+      "title": "ערוץ נוטה",
+      "released": 80,
+      "total": 80,
+      "received": 68.46084702383384,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.12791761583872577,
+        0.0927659570289867,
+        0.0031926163112329657
+      ],
+      "earth": 84.00000000000004,
+      "budget": 140,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 60,
+      "flux": {
+        "west": 68.19437804531489,
+        "center": 10.960193200211425,
+        "east": 0.45153618352950486
+      },
+      "ledgerError": {
+        "water": 3.836930773104541e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          4.040201893750081,
+          0
+        ],
+        "peaks": [
+          0.1111934190778833,
+          0.436425546979173,
+          0.0385716207886595
+        ],
+        "released": 80,
+        "received": 79.99999843393789,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.5579538487363607e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 16,
+      "title": "הגל המאוחר",
+      "released": 88,
+      "total": 88,
+      "received": 75.53845333844738,
+      "target": 68,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.15316735686749441,
+        0.11394403685717916,
+        0.008331930180826709
+      ],
+      "earth": 69.99999999999999,
+      "budget": 150,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 50,
+      "flux": {
+        "west": 68.1825710787378,
+        "center": 13.03513469340188,
+        "east": 5.243159562909489
+      },
+      "ledgerError": {
+        "water": 2.984279490192421e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          1.0446047396747902,
+          2.181011489158723,
+          0
+        ],
+        "peaks": [
+          0.33682369051876243,
+          0.3867658714742408,
+          0
+        ],
+        "released": 88,
+        "received": 87.99974233084237,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.5579538487363607e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 17,
+      "title": "אחו במזרח",
+      "released": 80,
+      "total": 80,
+      "received": 64.0580697655732,
+      "target": 61,
+      "recharged": 5.241644279197634,
+      "infiltrationGoal": 3,
+      "exposure": [
+        0,
+        0.05181548297422036,
+        0
+      ],
+      "peaks": [
+        0,
+        0.23200134821386095,
+        0.15137747808966273
+      ],
+      "earth": 64.39999999999996,
+      "budget": 155,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 46,
+      "flux": {
+        "west": 6.498589760850335,
+        "center": 10.599420925484079,
+        "east": 60.87258911394581
+      },
+      "ledgerError": {
+        "water": 2.5011104298755527e-12,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          4.061408195394638,
+          0
+        ],
+        "peaks": [
+          0,
+          0.4337181356544677,
+          0.1080267192483642
+        ],
+        "released": 80,
+        "received": 79.99997863913167,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.8421709430404007e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 18,
+      "title": "מעט אדמה",
+      "released": 80,
+      "total": 80,
+      "received": 68.97172010069275,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0.014322155007037317,
+        0,
+        0
+      ],
+      "peaks": [
+        0.22658812646814586,
+        0.19395323573830262,
+        0
+      ],
+      "earth": 64.39999999999996,
+      "budget": 88,
+      "walls": 0,
+      "stock": 2,
+      "excavatedCells": 46,
+      "flux": {
+        "west": 67.35309765880875,
+        "center": 11.950459149340727,
+        "east": 0
+      },
+      "ledgerError": {
+        "water": 2.984279490192421e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          2.057244917457024,
+          1.3978782730723291,
+          0
+        ],
+        "peaks": [
+          0.3400229232943664,
+          0.3079617902617236,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999957625066,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.4158453015843406e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 19,
+      "title": "כפר על המדרגה",
+      "released": 80,
+      "total": 80,
+      "received": 66.02748964106023,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.16146113326267247,
+        0.162652433621169,
+        0
+      ],
+      "earth": 74.2,
+      "budget": 145,
+      "walls": 2,
+      "stock": 3,
+      "excavatedCells": 53,
+      "flux": {
+        "west": 47.86891566450539,
+        "center": 26.536844398709395,
+        "east": 2.1390291528294143
+      },
+      "ledgerError": {
+        "water": 3.552713678800501e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          4.154877216425649,
+          0
+        ],
+        "peaks": [
+          0.15309752179544345,
+          0.4409728487052176,
+          0
+        ],
+        "released": 80,
+        "received": 79.9999818555225,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.5579538487363607e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 20,
+      "title": "נחל ארוך",
+      "released": 84,
+      "total": 84,
+      "received": 77.24313367567905,
+      "target": 66,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.16282315817171678,
+        0.16540466537157197,
+        0.08128962982688012
+      ],
+      "earth": 75.60000000000001,
+      "budget": 145,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 54,
+      "flux": {
+        "west": 57.41739900788843,
+        "center": 17.778601388613346,
+        "east": 5.361023674627614
+      },
+      "ledgerError": {
+        "water": -2.2168933355715126e-12,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          2.783135395812365,
+          0
+        ],
+        "peaks": [
+          0.16595506100805202,
+          0.2998400789575124,
+          0
+        ],
+        "released": 84,
+        "received": 83.99999309612927,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": -2.1174173525650986e-12,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 21,
+      "title": "שתי קרקעות",
+      "released": 80,
+      "total": 80,
+      "received": 68.86586722969959,
+      "target": 61,
+      "recharged": 5.42175377472225,
+      "infiltrationGoal": 4,
+      "exposure": [
+        0.00010189201900894923,
+        0,
+        0
+      ],
+      "peaks": [
+        0.22036263330416397,
+        0.21540422177239768,
+        0.10053397599211517
+      ],
+      "earth": 67.19999999999997,
+      "budget": 155,
+      "walls": 1,
+      "stock": 3,
+      "excavatedCells": 48,
+      "flux": {
+        "west": 44.26029883282336,
+        "center": 24.768915987493926,
+        "east": 7.220654123110191
+      },
+      "ledgerError": {
+        "water": 7.389644451905042e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          3.510147971202143,
+          0
+        ],
+        "peaks": [
+          0.1348830091203302,
+          0.40426860467202785,
+          0.0037548274372581993
+        ],
+        "released": 80,
+        "received": 79.99061419395548,
+        "recharged": 0.009385277327257089,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 3.268496584496461e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 22,
+      "title": "שיטפון כפול",
+      "released": 96,
+      "total": 96,
+      "received": 81.67397256611771,
+      "target": 74,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0.0077098994736974754,
+        0
+      ],
+      "peaks": [
+        0.20847080019576042,
+        0.22891471008903544,
+        0
+      ],
+      "earth": 75.60000000000001,
+      "budget": 160,
+      "walls": 0,
+      "stock": 3,
+      "excavatedCells": 54,
+      "flux": {
+        "west": 58.512513912313516,
+        "center": 23.706192730946945,
+        "east": 10.525159253424397
+      },
+      "ledgerError": {
+        "water": 2.1316282072803006e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0.596369256339504,
+          1.113031055255741,
+          0
+        ],
+        "peaks": [
+          0.30084055409442223,
+          0.334464311842695,
+          0
+        ],
+        "released": 96,
+        "received": 95.99994945951181,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 1.7053025658242404e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 23,
+      "title": "הכפר שמנגד",
+      "released": 80,
+      "total": 80,
+      "received": 70.02838635018611,
+      "target": 64,
+      "recharged": 0,
+      "infiltrationGoal": 0,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.19700550377126863,
+        0.12384312599392767,
+        0.014895966535357363
+      ],
+      "earth": 58.79999999999996,
+      "budget": 135,
+      "walls": 1,
+      "stock": 2,
+      "excavatedCells": 42,
+      "flux": {
+        "west": 62.81567752403631,
+        "center": 11.790604132548841,
+        "east": 4.88381805956182
+      },
+      "ledgerError": {
+        "water": 2.8421709430404007e-13,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          2.0325850448928438,
+          2.7369039799745867,
+          0
+        ],
+        "peaks": [
+          0.32987899794413034,
+          0.3683168862622691,
+          0
+        ],
+        "released": 80,
+        "received": 79.99999803388255,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": 2.8421709430404007e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    },
+    {
+      "level": 24,
+      "title": "אגן שלם",
+      "released": 96,
+      "total": 96,
+      "received": 76.88558221629766,
+      "target": 72,
+      "recharged": 5.42230788662508,
+      "infiltrationGoal": 3,
+      "exposure": [
+        0,
+        0,
+        0
+      ],
+      "peaks": [
+        0.062210494365027985,
+        0.19231588163410882,
+        0.034189667263949744
+      ],
+      "earth": 77.00000000000001,
+      "budget": 150,
+      "walls": 1,
+      "stock": 2,
+      "excavatedCells": 55,
+      "flux": {
+        "west": 66.84062352401907,
+        "center": 19.154868141944984,
+        "east": 7.824028511609485
+      },
+      "ledgerError": {
+        "water": -1.5205614545266144e-12,
+        "salt": 0,
+        "pollution": 0,
+        "reuse": 0
+      },
+      "noEdit": {
+        "exposure": [
+          0,
+          4.2784067289741285,
+          0
+        ],
+        "peaks": [
+          0.00655769210278397,
+          0.47408081066149377,
+          0.0911859358270909
+        ],
+        "released": 96,
+        "received": 95.99957190948209,
+        "recharged": 0,
+        "reason": "המים נכנסו לחצר. שנו את התכנית ונסו שוב.",
+        "ledgerError": {
+          "water": -4.263256414560601e-13,
+          "salt": 0,
+          "pollution": 0,
+          "reuse": 0
+        }
+      }
+    }
+  ]
+}

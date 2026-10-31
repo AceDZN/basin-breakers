@@ -1,5 +1,7 @@
 # Freeform rescue: independent physical proof
 
+This document retains the original first-map two-route proof. The **current full24 campaign** and its76 additional independent checks are documented in `CAMPAIGN_PHYSICS.md`; the first map remains exactly compatible. The one-map delivery boundary below is historical, not the final requested scope.
+
 31 October 2026. The new map supports at least two materially different physical diversion plans. **This establishes feasibility and some construction freedom, not enjoyment, newcomer comprehension or completion of the 24-mission rebuild.** The earlier guided prototype remains rejected. The design criteria in AGENCY_REVIEW.md preceded this implementation; this document records the resulting evidence.
 
 ## What was actually tested

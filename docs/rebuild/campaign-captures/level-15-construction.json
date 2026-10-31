@@ -1,0 +1,111 @@
+{
+  "mode": "plan",
+  "level": 15,
+  "title": "ערוץ נוטה",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      17,
+      3
+    ],
+    "outlet": [
+      17,
+      6
+    ],
+    "remaining": 80,
+    "released": 0,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        7,
+        16
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        12,
+        17
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        18,
+        15
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 0,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 0,
+  "duration": 100,
+  "earthLeft": 55.99999999999996,
+  "earthBudget": 140,
+  "excavatedCells": 60,
+  "walls": [
+    {
+      "id": 1,
+      "x": 12.333333163123678,
+      "z": 14.000000072172035,
+      "angle": 0
+    }
+  ],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "",
+  "conservation": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 15,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

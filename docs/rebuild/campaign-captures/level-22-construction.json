@@ -1,0 +1,116 @@
+{
+  "mode": "plan",
+  "level": 22,
+  "title": "שיטפון כפול",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 96,
+    "released": 0,
+    "total": 96,
+    "pulses": [
+      {
+        "volume": 44,
+        "rate": 5.5,
+        "delay": 0
+      },
+      {
+        "volume": 52,
+        "rate": 6,
+        "delay": 36
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        10,
+        15
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        17,
+        17
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        22,
+        16
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 0,
+  "target": 74,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 0,
+  "duration": 100,
+  "earthLeft": 84.39999999999999,
+  "earthBudget": 160,
+  "excavatedCells": 54,
+  "walls": [],
+  "wallStock": 3,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 1,
+  "reason": "",
+  "conservation": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 22,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

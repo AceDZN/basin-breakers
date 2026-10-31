@@ -1,62 +1,49 @@
-# Basin Breakers curriculum and scientific review
+# Current 24-mission rescue curriculum
 
-Reviewed against the supplied Workbook snapshots on 31 October 2026. Workbook sets the requested grade 8–9 topic scope. This is an original, schematic game; neither Ministry approval nor measured learning gains are claimed. The scenarios, terrain, thresholds, time compression and budget units are authored for play, not real water-system predictions.
+The human selected short flood rescues with free terrain planning. This current campaign assesses surface routing, terrain, flood timing, porous-ground storage and constrained landscape decisions. The retired technology/quality campaign remains historical; these rescue maps do **not** assess membrane desalination, wastewater treatment, potable-water quality or brine disposal.
 
-## Exact source modules
+This mapping uses the supplied Workbook snapshots. The game is an original schematic extension, not a reproduced lesson, Ministry certification or evidence of measured learning gain. Volumes, slopes, exposure, soil rates, eight-second events and construction budgets are tuned game abstractions rather than real flood forecasts.
 
-| Key | Grade and module | Canonical Workbook URL | Saved snapshot |
-|---|---|---|---|
-| W8 | Grade 8, משאבי מים | https://geography.workbook.co.il/grade-8/chapter-6/water-resources | docs/curriculum/g8-water.md |
-| E8 | Grade 8, בליה, סחיפה והתפתחות הקרקע | https://geography.workbook.co.il/grade-8/chapter-5/weathering-erosion | docs/curriculum/g8-erosion.md |
-| T9 | Grade 9, טכנולוגיה ישראלית בתחום המים | https://geography.workbook.co.il/grade-9/chapter-3/water-technology | docs/curriculum/g9-water-tech.md |
-| Q9 | Grade 9, איכות מים ומים חוצי גבולות | https://geography.workbook.co.il/grade-9/chapter-3/water-quality-shared | docs/curriculum/g9-water-quality.md |
-| M9 | Grade 9, ניהול משק המים | https://geography.workbook.co.il/grade-9/chapter-3/water-management | docs/curriculum/g9-water-management.md |
-| R9 | Grade 9, נחלים, ים וחופים | https://geography.workbook.co.il/grade-9/chapter-6/rivers-coasts | docs/curriculum/g9-rivers.md |
+| Key | Exact source | Local snapshot |
+|---|---|---|
+| W8 | [כיתה ח׳ — משאבי מים](https://geography.workbook.co.il/grade-8/chapter-6/water-resources) | `docs/curriculum/g8-water.md` |
+| E8 | [כיתה ח׳ — בליה, סחיפה והתפתחות הקרקע](https://geography.workbook.co.il/grade-8/chapter-5/weathering-erosion) | `docs/curriculum/g8-erosion.md` |
+| R9 | [כיתה ט׳ — נחלים, ים וחופים](https://geography.workbook.co.il/grade-9/chapter-6/rivers-coasts) | `docs/curriculum/g9-rivers.md` |
+| M9 | [כיתה ט׳ — ניהול משק המים](https://geography.workbook.co.il/grade-9/chapter-3/water-management) | `docs/curriculum/g9-water-management.md` |
 
-The keys below refer to those exact URLs. Drainage engineering, flood peaks and the heightfield solver extend these source concepts into an original playable model; they are not presented as quoted Workbook lessons.
+Every key below refers to the exact URL above. A lowering bed changes hydraulic head and storage; actual conservative cell-edge transfers determine the route. Digging is a deliberate human landscape intervention. Natural erosion, suspended sediment transport, structural levee collapse, infiltration travel time and coastal tides are not simulated.
 
-## Every mission: action, state and evidence
-
-| # / mission | Source / skill | Scenario and action → modeled state | Feedback and misconception tested | Transfer evidence to verify |
+| # | Mission | Source / causal skill | Misconception and correction | Evidence required |
 |---|---|---|---|---|
-| 1 הפתח הראשון | W8; distinguish surface water and finite supply | Excavate a downhill outlet; lowering a sill allows stored water to move into a lower tank | Visible level fall and tank rise; water follows hydraulic head, not a drawn route | A closed/raised sill prevents filling; opening the outlet fills with finite source depletion |
-| 2 הבית שבדרך | W8, R9; read a catchment route | Bend the channel around a courtyard; competing lower cells receive the surge | Courtyard flood and tank shortfall; shortest trench can be the wrong drainage route | Real straight-cut failure, rewind, physically different bypass success |
-| 3 לאט עם השער | W8, M9; quantity versus rate | Meter release through a narrow reach or provide storage; lower release peak reduces local overflow | Peak depth versus total volume; enough water does not ensure flood safety | Same volume with abrupt release floods, metered/storage plan succeeds |
-| 4 אגן חדש | W8; transfer gradient reading | Reorient inlet and destination elevations; inspect and cut a new outlet | An old cut misses the changed basin; route depends on topography | Complete changed geometry without a painted solution |
-| 5 מה נבלע בקרקע | W8; runoff/infiltration partition | Route a pulse over permeable ground; surface store decreases while aquifer store increases | Paired surface and groundwater quantities; infiltrated water remains in the system | Same input on sealed versus permeable terrain produces different partition |
-| 6 חצר האספלט | W8, R9; land-cover consequence | Add sealed land and a retention/recharge route; impermeable cells retain more surface runoff | Higher surface peak and reduced recharge; paving does not absorb rainfall | Reuse level 5's input, repair the resulting flood using a changed plan |
-| 7 מדרגות הנחל | E8; transport/deposition changes capacity | Clear a pre-existing loose deposit; excavating the raised obstruction restores conveyance | Visible raised bed and upstream ponding; deposited material can obstruct a channel | Blocked route versus manually cleared route; suspended transport/deposition during play is not implemented |
-| 8 הגשם הבא | W8, M9; storage across events | Provide capacity for two finite pulses and a controlled outlet | First event may pass but second overtops; empty storage is a resource | Survive both pulses, not only an early temporary fill |
-| 9 האקוויפר | W8; recharge before extraction | Infiltrate then pump only stored groundwater; aquifer gains and loses actual volume | Porous cutaway and pump quantity; aquifer is not a cavern river or infinite spring | Dry aquifer cannot pump; recharge enables a later withdrawal |
-| 10 באר עמוקה מדי | W8, Q9, M9; withdrawal versus renewal | Limit pumping and supplement supply; preserve a required final reserve | Demand can be met briefly while reserve falls; deeper/faster pumping does not create renewal | Overpumping fails at end-of-event evaluation; reserve-safe plan passes |
-| 11 מקור מזוהם | W8, Q9, R9; upstream source control | Isolate polluted source before recharge; infiltrating water carries contaminant mass | Groundwater quality instrument changes; clear-looking soil does not guarantee purification | Untreated infiltration contaminates the aquifer; source diversion preserves it |
-| 12 חוזרים למקור | W8, Q9, M9; unaided partition/renewal transfer | New land cover and recharge layout require matching surface demand with recharge | Water budget and remaining groundwater; last map's trench is insufficient | Complete changed recharge geometry with no complete route overlay |
-| 13 מלח במים | W8, Q9; quantity versus salinity | Keep saline inlet out of drinking supply; salinity follows transferred mass | Tank can be full but unacceptable; turquoise appearance is not quality evidence | Full saline tank fails quality while freshwater route succeeds |
-| 14 הממברנה | T9, W8; desalination as separation | Feed a finite intake to membrane; freshwater and concentrated brine split, energy decreases | Both output quantities/salinities; desalination separates water, never makes molecules | Sum product+brine equals feed and salt remains in all outputs |
-| 15 לא לאותו צינור | T9, Q9; prevent mixing | Route brine separately from freshwater; mixed salt mass raises product concentration | Brine label/pattern, salinity and rejection; dilution does not remove salt | Wrong connection fails modeled quality; separate outflow succeeds |
-| 16 לילה בלי הספק | T9, M9; technology constrained by energy | Use stored freshwater and timed processing under finite power | Energy falls with processed feed and treatment stops when unavailable | An unlimited-rate strategy fails; storage/timing serves demand within energy |
-| 17 מים לסיבוב נוסף | T9, Q9; reuse has a destination | Treat supported wastewater contaminants, send reuse to farm | Removed contaminant mass remains in a treatment residual store; reuse stays nonpotable | Drinking connection fails even after treatment; eligible farm receives reuse |
-| 18 אל השורש | T9, M9; reduce demand losses | Select drip distribution; more of a finite agricultural delivery benefits roots | Root-use versus explicit loss budget; efficiency conserves water rather than producing it | Same source meets root demand with drip and misses it with wasteful delivery |
-| 19 שתי רשתות | T9, Q9, M9; separate quality networks | Supply town with eligible freshwater and farm with reuse, within crossing/gate constraints | Per-destination quantity and quality; one mixed network is not equivalent | Wrong drinking connection fails; two separated routes meet both demands |
-| 20 הנחל צריך מים | R9, M9; downstream environmental allocation | Leave a minimum clean downstream flow while meeting tank demand | River gauge remains low after total diversion; full town tank alone is insufficient | Supply-only plan fails environmental minimum; balanced split passes |
-| 21 בצורת באגן | W8, T9, M9; combine finite sources | Allocate recharge, reuse and limited desalination in a low-input event | Source, energy and destination budgets; no one source is free or infinite | Integrated solution passes all simultaneous budgets under changed scarcity |
-| 22 מבול קצר | W8, E8, M9; upstream storage and flood peak | Capture short surge, then release to supply; temporary storage reshapes peak | House flood peak and later tank fill; immediate maximum throughput may be unsafe | Direct route floods; retention and later release meet quantity plus safety |
-| 23 תכנית משלכם | W8, T9, Q9, M9; compare feasible plans | Author two distinct safe layouts and compare earth/energy/retention costs | Replay best score with resource breakdown; there is more than one geography-safe design | Two materially distinct action plans independently pass the same physics criteria |
-| 24 האגן החי | W8, T9, Q9, M9, R9; integrated transfer | Unfamiliar catchment, two weather pulses, separate quality pathways and environmental reserve | Whole water/quality budget after second pulse; an early fill is not final success | Unaided new-layout plan satisfies safety, supply, quality and reserve together |
+| 1 | הצילו את הכפר | W8, R9: finite surface water and relief | Water does not follow an answer arrow; lower connected head and actual barriers determine transport | Two different flank constructions, real flux and dry full courtyard footprints |
+| 2 | מים ממערב | W8, R9: source position changes drainage approach | A successful previous route is not universally safe | Western inlet and nearer uphill home require a changed interception geometry |
+| 3 | מים ממזרח | W8, R9: transfer terrain reading | Mirrored source does not make old coordinates correct | Eastern inlet, changed homes and actual safe outlet receipt |
+| 4 | שלושה במורד | R9, M9: downstream consequences | Saving the first home does not make downstream homes safe | All three staggered footprints remain safe through the complete wave |
+| 5 | גב האבן | E8, R9: landscape material and route continuity | A line drawn over rock is not a continuous excavated channel | Protected island remains unchanged; a real connected diversion goes around it |
+| 6 | הכתף הנמוכה | W8, R9: slope and crossfall | Shortest map distance does not identify the lower hydraulic route | Crossfall changes actual distribution; selected lower shoulder conveys water |
+| 7 | סוללה אחת | M9, R9: limited protective construction | More pieces are not the only route to safety | One actual barrier plus selective excavation protects homes within stock/budget |
+| 8 | שני גלים | W8, M9: finite repeated events | First-wave safety does not establish capacity for the next wave | Both scheduled releases occur before final success; early safe state cannot win |
+| 9 | הקרקע ששותה | W8: runoff versus infiltration | Infiltrated water does not disappear | Surface water and tracers move into explicit porous-ground storage while coast receipt also passes |
+| 10 | חוף תלול | R9, M9: relief affects exposure and interception | A barrier near the coast cannot reverse upstream flooding | Earlier threatened footprint remains dry, not merely the final receiver filled |
+| 11 | מעבר בין סלעים | E8, R9: obstacles change usable relief | Visible stones are not decorations if they block a trench | Two fixed footprints constrain the actual field and require a real passage |
+| 12 | מפרץ ארוך | W8, R9: complete drainage connectivity | A deep attractive ditch is not automatically a drain | Full final reach transfers water to coast; dead-end retained volume remains accounted |
+| 13 | גשם קצר וחזק | W8, M9: peak versus total amount | Equal total water does not guarantee equal flood exposure | Short higher-rate event is evaluated for actual courtyard depth/exposure |
+| 14 | הבתים המפוזרים | R9, M9: spatially distributed protection | Protecting a center point does not protect a village footprint | Three dispersed full courtyard regions pass independently |
+| 15 | ערוץ נוטה | R9: crossfall and shallow natural gully | Screen orientation does not determine downhill direction | Changed lateral relief produces changed signed flow across the basin |
+| 16 | הגל המאוחר | W8, M9: delayed, unequal inflows | The small first pulse is not the complete event | Larger delayed source store releases fully; home safety and receipt persist to horizon |
+| 17 | אחו במזרח | W8, E8, M9: soil storage and protected ground | Sending everything into a meadow is not equivalent to safe downstream passage | Actual recharge, actual coast receipt and all homes pass together |
+| 18 | מעט אדמה | E8, M9: constrained landscape intervention | Excavation is neither free nor irreversible | Actual volume cost stays within budget; fill and Undo return exact construction cost |
+| 19 | כפר על המדרגה | W8, R9: local sills and elevation differences | A visible line can still contain an uphill sill | Diversion works with the actual shoulder/footprint elevations |
+| 20 | נחל ארוך | W8, M9: sustained runoff | A low initial peak does not prove the full supply has passed | Entire longer finite release and adequate final outflow are required |
+| 21 | שתי קרקעות | W8, M9: partition among stores | Recharge and outflow cannot both claim the same parcel | Combined measured renewal plus coast receipt never exceeds conserved input/stores |
+| 22 | שיטפון כפול | W8, R9, M9: peak capacity across repeated events | One cleared bottleneck can still be inadequate for a second surge | Real high-rate releases and obstacle geometry are tested through both events |
+| 23 | הכפר שמנגד | R9, M9: unfamiliar-catchment transfer | Memorizing a gesture is not terrain understanding | New source, homes and crossfall require a different physical construction |
+| 24 | אגן שלם | W8, E8, R9, M9: integrated basin planning | Holding the flood indefinitely or flooding homes en route is not success | Full two-pulse release, recharge target, safe coast passage, construction bounds and all footprints pass |
 
-## Scientific model requirements and source corrections
+The model's water/salt/contamination/reuse ledger checks preserve scientific bookkeeping. Nonzero tracer test fixtures do not turn these missions into water-quality instruction. Green soil regions mean schematic permeability, not immediate purification or underground rivers. Coastal receipt is a modeled safe passage quantity; it is not a claim that arbitrary real discharges are environmentally acceptable.
 
-1. **Conserve finite water.** Initial and event inputs equal surface, source, tank, aquifer and other stores plus explicit boundary outflow, use and evaporative loss. Treatment and pumping transfer water. No module creates water. The T9 snapshot's wording “התפלה מוסיפה מים חדשים” is interpreted as adding to the usable supply by separation, never creation of molecules.
-2. **Track mass, not only category flags.** Salt and supported pollutant mass travel with water concentration. Mixing redistributes mass; it does not destroy it. Treatment can move supported pollution into residual/sludge, which remains in the ledger. Salt is not silently removed by ordinary wastewater treatment.
-3. **Quality is multidimensional.** Salinity, a simplified supported pollutant tracer and nonpotable reuse provenance are separate concerns. Meeting one tracer threshold does not certify real drinking safety. The game's drinking category is an intentionally simplified educational eligibility rule, not a laboratory or legal standard.
-4. **Desalination has two water outputs.** Product plus brine equals feed within declared tolerance; both outputs carry the correct split of salt. Processing consumes finite energy. Residual pollutant handling must also be explicit, and desalination is not a universal treatment for unknown contaminants.
-5. **Groundwater occupies porous/permeable material.** Recharge is a transfer from surface water to an abstract underground store, not a disappearing sink. The cutaway must show rock/soil with distributed water. Infiltration does not automatically purify all dissolved substances. Spatial groundwater flow, travel time and real coastal salt intrusion are not claimed unless actually implemented.
-6. **Reserve is an end-of-run condition.** A temporary tank fill does not excuse later depletion. Pumping is bounded by existing store; water below a reserve can be physically available while its extraction still fails sustainability criteria.
-7. **Water-surface height matters.** Flow follows differences in hydraulic head (terrain elevation plus water depth), not elevation alone. Uphill terrain can be inundated by sufficiently high water; the visual should not teach that every parcel follows only a fixed arrow.
-8. **Sediment and time.** E8 usefully distinguishes breakdown, transport and deposition. Its “fixed mandatory order” wording is too absolute for sediment already present in an event: the game can begin with loose material and transport it without simulating fresh weathering. Geological soil development is slow; a short replay is a compressed event, not instantaneous formation of mature soil.
-9. **Source statistics are not assessed.** Supplied W8 percentages, national volumes, current rates, cost rankings, infrastructure status and T9's broad claims about rainfall independence are unnecessary to the puzzle. They are not turned into pass/fail facts. No legal/policy guidance or exact GIS claim is made.
-10. **Feedback identifies causes.** Prefer “המים עברו דרך הקרקע הנקבובית אל מי התהום”, “התמלחת העלתה את המליחות במכל” and “המשאבה רוקנה את העתודה”. Avoid “wrong answer” without a visible physical consequence.
+Per-mission QA witnesses establish physical solvability, and no-edit/harmful plans must fail for actual flood or storage reasons. These are separate from ordinary-input evidence and student explanation. A model win is never reported as fun or learning gain.
 
-## Evidence status
+## Retired scope
 
-This document maps the authored scope and acceptance criteria. It does not itself prove implementation or solvability. Actual automated and browser results are recorded in PLAYTEST.md with explicit pass/fail status. Hinted and first-unaided attempts must be recorded separately. Student learning and enjoyment require later student evaluation; internal QA alone cannot establish them.
+The original24-level technology/quality curriculum is preserved in [V1_CURRICULUM.md](docs/history/V1_CURRICULUM.md). It is historical, not a claim that the current rescue campaign teaches desalination or treatment. Current physical evidence: [campaign model proof](docs/rebuild/CAMPAIGN_PHYSICS.md); actual controls and progression: [PLAYTEST.md](PLAYTEST.md).

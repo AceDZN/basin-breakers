@@ -1,13 +1,17 @@
-# Basin Breakers QA — current freeform prototype
+# Basin Breakers QA — current 24-mission freeform campaign
 
 Run every command in `/Users/acedzn/dev/AceDZN-exp/basin-breakers`.
 
-- `npx tsx --test tests/freeform.test.ts`: 36 independent freeform checks. Two materially different actual flux routes, rough construction variations, causal wall ablations, harmful/stranded plans, independent water/salt/contamination/reuse ledgers, timing, construction limits, filling/refunds, paused/run Undo and validated saved-action-history recovery. The latest result is `latest-freeform-model-results.txt`.
-- `npx tsx tests/freeform-browser.ts`: current actual-control regression, including pointer/touch construction and controls. This uses read-only projection for targeted input and cannot substitute for a newcomer inventing a plan.
+- `npx tsx --test tests/freeform-campaign.test.ts`: 76 current campaign checks, including one public-action complete-wave win and one actual no-edit courtyard failure for **each of 24 authored maps**. Independent raw-store ledgers, real delayed pulses, soil renewal versus sealed soil, fixed limestone, changed water routes, per-level construction/history limits, load/level1 save compatibility, rough construction and observed UI-offset regressions. Latest reporter: `latest-freeform-campaign-results.txt`; full numerical proof: `docs/rebuild/campaign-model-proof.json`.
+- `npx tsx --test tests/freeform.test.ts`: 36 first-map and recovery checks. Two materially different actual flux routes, rough construction variations, causal wall ablations, harmful/stranded plans, independent water/salt/contamination/reuse ledgers, timing, construction limits, filling/refunds, paused/run Undo and validated saved-action-history recovery. The first map's geometry/source/budget are preserved exactly. Latest result: `latest-freeform-model-results.txt`.
+- `npx tsx tests/campaign-browser.ts`: lead-owned current campaign parity. Actual pointer strokes, free wall placement and visible controls across all24; selected scheduled-wave levels use real elapsed time and others use the documented clock after construction. Internal fixtures are never imported by the product. This is targeted regression, not blind human play.
+- `FREEFORM_BASE=http://localhost:4302/ npx tsx tests/freeform-browser.ts`: current campaign actual-control regression, including pointer/touch construction and controls. This uses read-only projection for targeted input and cannot substitute for a newcomer inventing a plan.
+- `FREEFORM_BASE=http://localhost:4302/ npx tsx tests/freeform-recovery.ts`:7 actual excavation-trap controls, including touch, paused/running recovery and saved Undo.
+- `npx tsx tests/campaign-progression.ts`:7 migration/Next/selection/replay checks through dev5302 prototype and campaign entries.
 - `npx tsx tests/freeform-playthrough.ts`: lead-owned model-to-UI witness parity using real pointer actions and elapsed time. Internal solutions are QA fixtures, never product guidance.
-- `npm test`: runs both the current freeform suite and the legacy 66-model suite. Legacy campaign passes do not establish the new game's usability.
+- `npm test`: 178 checks: 112 active freeform checks (76 campaign +36 first-map/recovery), plus the legacy 66-model suite. Legacy passes do not establish the new game's usability.
 
-Independent proof and its limits: `docs/rebuild/FREEFORM_PHYSICS.md`. Ordinary visible-input audit captures: `docs/rebuild/audit/freeform-*`. The auditor drew a plan from the rendered map without fixture coordinates/projection/time hooks and observed a successful real-time flood; prior model knowledge means this is not a naive student or fun study. The human's reported excavation trap subsequently required fill and recovery fixes.
+Independent current proof and its limits: `docs/rebuild/CAMPAIGN_PHYSICS.md`; opening two-route proof: `docs/rebuild/FREEFORM_PHYSICS.md`. Ordinary visible-input audit captures: `docs/rebuild/audit/freeform-*`. The auditor drew a plan from the rendered map without fixture coordinates/projection/time hooks and observed a successful real-time flood; prior model knowledge means this is not a naive student or fun study. After the human's excavation-trap report, a separate ordinary-touch phone audit verified Fill, refund, Undo and paused-wave recovery. Current geography mapping is `docs/rebuild/CAMPAIGN_CURRICULUM.md`; retired quality missions remain historical.
 
 ## Historical campaign harnesses
 

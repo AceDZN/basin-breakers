@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "A real prototype win and construction migrate without losing the player plan.",
+    "Primary Next loads a materially different fresh level2 and one live canvas.",
+    "Reload resumes the selected mission and its own construction/history.",
+    "All24 missions appear on the practice map with real completion marks.",
+    "Returning to a completed mission preserves its winning plan and offers next/replay.",
+    "Returning to an unfinished mission preserves only its own edits; Undo still works.",
+    "Failure retries the same mission and awards no completion."
+  ],
+  "errors": []
+}

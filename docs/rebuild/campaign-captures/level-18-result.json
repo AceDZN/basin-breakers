@@ -1,0 +1,108 @@
+{
+  "mode": "won",
+  "level": 18,
+  "title": "מעט אדמה",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      10,
+      3
+    ],
+    "outlet": [
+      10,
+      6
+    ],
+    "remaining": 0,
+    "released": 80,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        9,
+        14
+      ],
+      "safe": true,
+      "peak": 0.2262920972394116,
+      "exposure": 0.013183232904002772
+    },
+    {
+      "at": [
+        14,
+        18
+      ],
+      "safe": true,
+      "peak": 0.1936081988914444,
+      "exposure": 0
+    },
+    {
+      "at": [
+        20,
+        16
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 68.97172352976088,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 100,
+  "duration": 100,
+  "earthLeft": 23.600000000000037,
+  "earthBudget": 88,
+  "excavatedCells": 46,
+  "walls": [],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 1,
+  "reason": "כל שלושת הבתים בטוחים!",
+  "conservation": {
+    "water": 3.268496584496461e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 18,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

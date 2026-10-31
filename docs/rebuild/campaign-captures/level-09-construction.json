@@ -1,0 +1,105 @@
+{
+  "mode": "plan",
+  "level": 9,
+  "title": "הקרקע ששותה",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 80,
+    "released": 0,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        11,
+        16
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        15,
+        18
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        20,
+        14
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 0,
+  "target": 60,
+  "recharged": 0,
+  "infiltrationGoal": 2,
+  "time": 0,
+  "duration": 100,
+  "earthLeft": 83.60000000000001,
+  "earthBudget": 155,
+  "excavatedCells": 51,
+  "walls": [
+    {
+      "id": 1,
+      "x": 13.999999896340922,
+      "z": 10.999999626827318,
+      "angle": 2.356194490192345
+    }
+  ],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "",
+  "conservation": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 9,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 2.356194490192345,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

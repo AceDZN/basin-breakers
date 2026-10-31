@@ -1,0 +1,114 @@
+{
+  "mode": "won",
+  "level": 11,
+  "title": "מעבר בין סלעים",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      12,
+      3
+    ],
+    "outlet": [
+      12,
+      6
+    ],
+    "remaining": 0,
+    "released": 80,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        11,
+        15
+      ],
+      "safe": true,
+      "peak": 0.22875364581486063,
+      "exposure": 0.018691151886954437
+    },
+    {
+      "at": [
+        15,
+        18
+      ],
+      "safe": true,
+      "peak": 0.22112608149229662,
+      "exposure": 0.0012474919421425637
+    },
+    {
+      "at": [
+        22,
+        18
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 72.52114354979048,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 100,
+  "duration": 100,
+  "earthLeft": 77.2,
+  "earthBudget": 150,
+  "excavatedCells": 52,
+  "walls": [
+    {
+      "id": 1,
+      "x": 10.999999097282014,
+      "z": 12.999998888530563,
+      "angle": 0
+    },
+    {
+      "id": 2,
+      "x": 16.00000013277495,
+      "z": 14.999999943410984,
+      "angle": 0
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 3,
+  "reason": "כל שלושת הבתים בטוחים!",
+  "conservation": {
+    "water": 4.121147867408581e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 11,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

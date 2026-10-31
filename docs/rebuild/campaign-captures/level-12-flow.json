@@ -1,0 +1,114 @@
+{
+  "mode": "run",
+  "level": 12,
+  "title": "מפרץ ארוך",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 35.336000000000595,
+    "released": 44.66400000000044,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        10,
+        15
+      ],
+      "safe": true,
+      "peak": 0.06534780683383827,
+      "exposure": 0
+    },
+    {
+      "at": [
+        15,
+        17
+      ],
+      "safe": true,
+      "peak": 0.17727309735987493,
+      "exposure": 0
+    },
+    {
+      "at": [
+        20,
+        14
+      ],
+      "safe": true,
+      "peak": 0.07110387301274676,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 5.056292892225481,
+  "target": 60,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 11.16600000000011,
+  "duration": 100,
+  "earthLeft": 48.60000000000001,
+  "earthBudget": 120,
+  "excavatedCells": 51,
+  "walls": [
+    {
+      "id": 1,
+      "x": 13.703676703413414,
+      "z": 7.933233623715061,
+      "angle": 0
+    },
+    {
+      "id": 2,
+      "x": 14.99999962503767,
+      "z": 14.000001427208211,
+      "angle": 0
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 3,
+  "reason": "",
+  "conservation": {
+    "water": 7.247535904753022e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 12,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

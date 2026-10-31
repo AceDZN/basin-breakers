@@ -1,0 +1,125 @@
+{
+  "mode": "plan",
+  "level": 24,
+  "title": "אגן שלם",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      18,
+      3
+    ],
+    "outlet": [
+      18,
+      6
+    ],
+    "remaining": 96,
+    "released": 0,
+    "total": 96,
+    "pulses": [
+      {
+        "volume": 38,
+        "rate": 4.5,
+        "delay": 0
+      },
+      {
+        "volume": 58,
+        "rate": 5.5,
+        "delay": 40
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        8,
+        15
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        14,
+        18
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        20,
+        14
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 0,
+  "target": 72,
+  "recharged": 0,
+  "infiltrationGoal": 3,
+  "time": 0,
+  "duration": 100,
+  "earthLeft": 75.8,
+  "earthBudget": 150,
+  "excavatedCells": 53,
+  "walls": [
+    {
+      "id": 1,
+      "x": 14.000000270567897,
+      "z": 15.000001027576204,
+      "angle": 0
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "",
+  "conservation": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 24,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

@@ -1,0 +1,113 @@
+{
+  "mode": "run",
+  "level": 17,
+  "title": "אחו במזרח",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      16,
+      3
+    ],
+    "outlet": [
+      16,
+      6
+    ],
+    "remaining": 35.668000000000575,
+    "released": 44.33200000000046,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        9,
+        15
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        14,
+        18
+      ],
+      "safe": true,
+      "peak": 0.19190172807832068,
+      "exposure": 0
+    },
+    {
+      "at": [
+        19,
+        16
+      ],
+      "safe": true,
+      "peak": 0.10945690085694984,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 5.157341459719905,
+  "target": 61,
+  "recharged": 0.638029858415314,
+  "infiltrationGoal": 3,
+  "time": 11.083000000000116,
+  "duration": 100,
+  "earthLeft": 90.60000000000004,
+  "earthBudget": 155,
+  "excavatedCells": 46,
+  "walls": [
+    {
+      "id": 1,
+      "x": 14.000000647636574,
+      "z": 13.00000002191424,
+      "angle": 0.7853981633974483
+    }
+  ],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "",
+  "conservation": {
+    "water": 6.394884621840902e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 17,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0.7853981633974483,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

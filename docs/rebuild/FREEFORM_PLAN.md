@@ -1,4 +1,6 @@
-# Active rebuild: player-designed flood rescue
+> Current scope: the human won this core prototype and explicitly requested further levels. The one-map hold below is historical and superseded. The active24-mission plan is [PLAN24.md](PLAN24.md); physical proof is [CAMPAIGN_PHYSICS.md](CAMPAIGN_PHYSICS.md). Main now supports Next, saved per-map construction and all24 authored missions.
+
+# Freeform core plan — followed by the full24-level campaign
 
 31 October2026. Human feedback rejected the guided sand-plug version: following a marker is not planning, and rendering/recovery still failed. Stop expanding that interaction. The next reviewable deliverable is **one genuinely freeform rescue map**, not24 more prompted actions. Campaign expansion follows a clear, dependable physical game and direct human response.
 

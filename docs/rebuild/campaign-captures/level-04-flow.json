@@ -1,0 +1,106 @@
+{
+  "mode": "run",
+  "level": 4,
+  "title": "שלושה במורד",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 35.66600000000069,
+    "released": 44.334000000000344,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        12,
+        12
+      ],
+      "safe": true,
+      "peak": 0.12107525063820317,
+      "exposure": 0
+    },
+    {
+      "at": [
+        16,
+        16
+      ],
+      "safe": true,
+      "peak": 0.08940984582957828,
+      "exposure": 0
+    },
+    {
+      "at": [
+        12,
+        19
+      ],
+      "safe": true,
+      "peak": 0.10892525795171128,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 2.298445251126653,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 11.083500000000086,
+  "duration": 100,
+  "earthLeft": 67.2,
+  "earthBudget": 140,
+  "excavatedCells": 52,
+  "walls": [
+    {
+      "id": 1,
+      "x": 11.999999230469218,
+      "z": 9.999999791228895,
+      "angle": 0
+    },
+    {
+      "id": 2,
+      "x": 16.9999996797208,
+      "z": 13.00000002092088,
+      "angle": 0.7853981633974483
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 3,
+  "reason": "",
+  "conservation": {
+    "water": 7.247535904753022e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 4,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0.7853981633974483,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

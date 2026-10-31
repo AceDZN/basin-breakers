@@ -1,0 +1,91 @@
+{
+  "mode": "run",
+  "level": 2,
+  "title": "מים ממערב",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      8,
+      3
+    ],
+    "outlet": [
+      8,
+      6
+    ],
+    "remaining": 29.002000000000198,
+    "released": 50.998000000000545,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        17,
+        14
+      ],
+      "safe": true,
+      "peak": 0.19873853081158807,
+      "exposure": 0
+    },
+    {
+      "at": [
+        19,
+        18
+      ],
+      "safe": true,
+      "peak": 0.16694290920021498,
+      "exposure": 0
+    },
+    {
+      "at": [
+        23,
+        16
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 16.91591611427818,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 12.749500000000136,
+  "duration": 100,
+  "earthLeft": 90.60000000000004,
+  "earthBudget": 155,
+  "excavatedCells": 46,
+  "walls": [],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 1,
+  "reason": "",
+  "conservation": {
+    "water": 2.1316282072803006e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 2,
+    "total": 24,
+    "completed": [
+      1
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

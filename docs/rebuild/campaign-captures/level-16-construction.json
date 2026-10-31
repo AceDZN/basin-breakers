@@ -1,0 +1,123 @@
+{
+  "mode": "plan",
+  "level": 16,
+  "title": "הגל המאוחר",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 88,
+    "released": 0,
+    "total": 88,
+    "pulses": [
+      {
+        "volume": 26,
+        "rate": 3,
+        "delay": 0
+      },
+      {
+        "volume": 62,
+        "rate": 5,
+        "delay": 42
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        11,
+        14
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        16,
+        18
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    },
+    {
+      "at": [
+        21,
+        16
+      ],
+      "safe": true,
+      "peak": 0,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 0,
+  "target": 68,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 0,
+  "duration": 100,
+  "earthLeft": 80.00000000000001,
+  "earthBudget": 150,
+  "excavatedCells": 50,
+  "walls": [
+    {
+      "id": 1,
+      "x": 13.000000964158597,
+      "z": 10.000000226425698,
+      "angle": 0
+    },
+    {
+      "id": 2,
+      "x": 15.999999992562904,
+      "z": 14.999999597201892,
+      "angle": 0
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 3,
+  "reason": "",
+  "conservation": {
+    "water": 0,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 16,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

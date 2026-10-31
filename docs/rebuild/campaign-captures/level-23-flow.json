@@ -1,0 +1,119 @@
+{
+  "mode": "run",
+  "level": 23,
+  "title": "הכפר שמנגד",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      7,
+      3
+    ],
+    "outlet": [
+      7,
+      6
+    ],
+    "remaining": 35.666000000000736,
+    "released": 44.3340000000003,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        10,
+        14
+      ],
+      "safe": true,
+      "peak": 0.17747158507378283,
+      "exposure": 0
+    },
+    {
+      "at": [
+        16,
+        17
+      ],
+      "safe": true,
+      "peak": 0.10974329719278572,
+      "exposure": 0
+    },
+    {
+      "at": [
+        21,
+        18
+      ],
+      "safe": true,
+      "peak": 0.012115041095376075,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 9.248579545616211,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 11.083500000000075,
+  "duration": 100,
+  "earthLeft": 76.20000000000005,
+  "earthBudget": 135,
+  "excavatedCells": 42,
+  "walls": [
+    {
+      "id": 1,
+      "x": 15.666666610832626,
+      "z": 14.000001427573778,
+      "angle": 0
+    }
+  ],
+  "wallStock": 1,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 2,
+  "reason": "",
+  "conservation": {
+    "water": 6.963318810448982e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 23,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}

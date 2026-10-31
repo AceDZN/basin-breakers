@@ -1,42 +1,43 @@
 # Basin Breakers — פורצי האגן
 
-A Hebrew 3D flood-rescue puzzle. The active rebuild is **one open construction map**: draw your own trenches through broad soil, place up to three freely positioned and rotated levees, then test a finite flood. Protect all three courtyards while at least64 of80 water units reach the broad lower coast. Retry retains construction; Undo reverses the last edit and refunds its resources.
+A Hebrew browser3D flood-rescue game with **24 authored freeform missions**. Draw your own trenches, fill unwanted excavation, place limited levees, test a finite flood and revise your plan. A win offers **השלב הבא**; a level map supports practice/replay. Every mission saves its own construction and Undo history. Existing first-map wins and plans migrate into the campaign.
 
-The human rejected the original24-level version and the later guided sand-plug version. Their source and historical evidence remain; those passes do **not** establish that the rebuilt interaction is clear or enjoyable. See [rejected history](docs/rebuild/REJECTED_HISTORY.md) and the active [freeform plan](docs/rebuild/FREEFORM_PLAN.md). Campaign expansion follows a dependable core and direct human feedback.
-
-## Run
+## Play
 
 ```sh
 npm ci
 npm run dev
-npm run build
-npm test
 ```
 
-Local game: http://localhost:5302 . Strict dev port5302, production preview4302 (`npm run preview`). Static relative assets, no backend, keys, runtime LLM or analytics. No production deployment is claimed.
+Open http://localhost:5302 . Production preview: `npm run build` then `npm run preview` on4302. Strict local ports; static relative assets, no backend, keys, runtime LLM or analytics. No production deployment is claimed.
 
-## Current controls
+## Controls and progression
 
-- **חפירה:** drag through available warm soil. Your pointer stroke determines the excavated geometry. One consistent bounded depth; overlapping excavation is not charged twice. Foundations and fixed stone are protected.
-- **מילוי:** drag across a previous excavation to restore soil and refund its actual earth cost. Undo can reverse the fill too.
-- **סוללות:** choose the levee tool, rotate with the visible button or **R**, then place a fixed-size piece anywhere legal. Click an existing levee with the shovel selected to move or remove it. Three pieces total.
-- **בדיקת השיטפון:** release the finite event. **Space** pauses/resumes. A flood freezes with actual water still present. Return to planning to revise retained construction.
-- **Z / ↶:** Undo last construction, including during a running/paused wave (returns to planning). **1 / 2 / 3:** shovel/levee/fill. **F:** fullscreen. **Escape:** close help/pause/exit fullscreen. Touch has equivalent controls. Focus loss pauses. Sound starts muted and can be enabled. A visible reset is itself undoable. Validated plan and the latest32 actual Undo snapshots save locally; old saves without history remain editable using Fill.
+- **חפירה:** drag across any available warm soil. The actual stroke lowers the actual bed at one bounded depth. Overlap does not charge the same earth twice.
+- **מילוי:** drag over previous excavation to restore soil and refund actual earth. Fill itself can be undone. Source, house foundations, fixed rock and current levee cells stay protected.
+- **סוללות:** choose a piece, rotate with the visible button or **R**, then place it anywhere legal. Select an existing levee with the shovel to move/remove it. Stock varies by mission.
+- **בדיקת השיטפון / Space:** test, pause and resume. Failure returns to retained construction. **↶ / Z** reverses the last construction, including during a wave. A visible reset is itself undoable.
+- **השלב הבא:** continue after a real win. **מפת השלבים / M** opens all24 for practice. Completed maps retain their plan and can be replayed. The last win opens the completed campaign map.
+- **1 / 2 / 3:** shovel/levee/fill. **F:** fullscreen; **Escape:** pause/close/exit. Touch uses the same visible tools. Focus loss pauses. Sound starts muted; reduced motion is respected.
 
-No marked answer spots, wall sockets or route-completion checks. Outcomes depend on actual terrain, barriers and water, including unexpected legal plans.
+Sparse local saves retain each plan and the latest32 actual Undo snapshots, rather than32 full heightfield copies. Malformed saves are validated; storage errors cannot stop the live controls. Legacy saves without history remain repairable through Fill. No student personal data is collected.
 
-## Physical scope
+## The24 missions
 
-The deterministic conservative cardinal-grid model transports finite water and dissolved tracers according to hydraulic-head differences. Trenches change bed elevations; levees change crests. Home safety checks every cell of each courtyard over time. Success requires full source release, actual safe receipt and all three protected footprints. Stranding the pulse cannot win.
+Source and courtyard positions, true slopes/crossfall, protected limestone islands, earth/levee limits and finite pulse schedules vary. Maps8/16/22/24 contain delayed second waves. Maps9/17/21/24 require actual infiltration into porous-ground storage as well as sufficient coast passage and courtyard safety. Maps7/18 limit construction; the last act combines unfamiliar relief, repeated storms and competing stores.
 
-Maps, compressed time, budgets and units are original simplified teaching scenarios, not engineering predictions. The active map focuses on drainage and flood planning. The retired campaign modeled infiltration, lumped groundwater, salinity, membranes and reuse; source scope/caveats remain in [CURRICULUM.md](CURRICULUM.md). No learning gain or enjoyment is established by internal QA.
+All24 fields are physically distinct. No dig hotspot, wall socket, named-route answer flag or completed-stroke check determines success. Internal QA constructions live only in tests. The player can invent other legal plans.
 
-## Design and evidence
+## Model and scope
 
-- [Freeform targets06/07](docs/rebuild/mockups/README.md), generated with built-in imagegen and inspected before implementation.
-- [Agency review](docs/rebuild/AGENCY_REVIEW.md): physical alternatives, real bad plans, ordinary-input reliability and proof limits.
-- [PLAYTEST.md](PLAYTEST.md), [VISUAL_REVIEW.md](VISUAL_REVIEW.md): current evidence, separated from rejected versions.
-- [ASSETS.md](ASSETS.md): original Tripo acquisition through the user's Chrome,60 displayed existing credits, no purchases. Two GLBs total2,616,388bytes; local Hebrew fonts. No additional credits spent on this rebuild.
-- [Historical v1 records](docs/history): retired24-level technical evidence retained for provenance.
+A conservative cardinal-grid heightfield transports finite water and tracers according to hydraulic-head differences. Trenches change bed height; levees change actual crest cells. Safety checks all three full courtyard footprints over the event. Success requires full source release, actual safe coast receipt and any recharge goal after the complete horizon. Infiltrated water moves into an explicit underground store and remains in the ledger.
 
-Public source: https://github.com/AceDZN/basin-breakers . Authorized main; no force pushes.
+Schematic maps, compressed eight-second events, rates, thresholds and budgets are original game tuning, not real flood forecasts. Safety means a modeled depth/exposure limit, not literal zero wetness. Groundwater is a lumped porous store, not a cavern river. The current campaign focuses on drainage/soil/flood planning; the rejected technology/quality campaign is retained as history. Exact Workbook mappings and source caveats are in [CURRICULUM.md](CURRICULUM.md). No enjoyment or learning gain is established by internal QA.
+
+## Verification and assets
+
+`npm test`:178/178 (76campaign +36opening/recovery +66retired-engine regression). `npm run build` passes. All24 current missions won through actual browser construction and all23 Next transitions reached the following map; the24th win reached the completed campaign screen. Four storm missions used real elapsed waves; other internal parity runs used the documented clock after actual construction. Additional controls, history migration and touch recovery checks passed. Details and limits: [PLAYTEST.md](PLAYTEST.md).
+
+The independent phone play used an invented visible trench, a natural wave and actual Next to level3. That is an input/playability observation, not a novice-student study. Visual gaps versus the generated targets remain in [VISUAL_REVIEW.md](VISUAL_REVIEW.md). Targets06/07/08 were generated and inspected before dependent implementation.
+
+Original Tripo assets were acquired in the user's Chrome with60 displayed existing credits; no new credits were spent on the rebuild/campaign. The owned gate is visible in current play. Two retained GLBs total2,616,388bytes; fonts are local. Provenance: [ASSETS.md](ASSETS.md). Public source: https://github.com/AceDZN/basin-breakers . Authorized main, no force pushes.

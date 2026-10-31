@@ -1,5 +1,7 @@
 # Full freeform flood-rescue campaign — authoring plan
 
+Completed authoring/proof status: all24 current maps now exist in `src/freeform/campaign.ts`, all24 public-action witnesses pass their full horizons, and every no-edit map fails actual courtyard safety. `CAMPAIGN_PHYSICS.md` records final values, observed browser failures/revisions and evidence limits; `CAMPAIGN_CURRICULUM.md` maps current rescue scope. This table is the pre-implementation plan, with final tuning documented in the proof.
+
 The human expects a next mission after a rescue. The one-map prototype was a feasibility milestone, not the commissioned scope. All 24 missions below retain arbitrary digging/filling and freely placed finite levees. No authored solution patches, route-completion flags or retired quality quizzes return. Generated target 08 must be inspected before implementing the new campaign geometry.
 
 Mission 1 preserves the current map and saved winning construction exactly. Subsequent missions vary source location, exposed courtyards, slope/crossfall, real relief/stone, earth/levee constraints and finite pulse timing. Green permeable areas transfer actual water into explicit porous-ground storage; a recharge goal is additional to home safety and sufficient actual coast passage.

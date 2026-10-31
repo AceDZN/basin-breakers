@@ -1,5 +1,7 @@
 # Freeform rescue — actual input audit
 
+This document preserves the independent opening/recovery audit. The human subsequently required the full24 current freeform missions; those are now authored and proven in `CAMPAIGN_PHYSICS.md`, with lead-owned actual campaign/progression reports. The earlier one-map delivery/expansion boundary below is superseded and does not excuse stopping before mission24.
+
 31 October 2026. Current deliverable: one freeform map. The guided rescue prototype remains **rejected**; its earlier captures and trial outcomes are history. This report does not call a numerical win “fun” or certify the rebuilt 24-mission campaign.
 
 ## Independent desktop attempt

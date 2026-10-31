@@ -1,0 +1,106 @@
+{
+  "mode": "run",
+  "level": 10,
+  "title": "חוף תלול",
+  "coordinates": "grid x:0..28 left→right; z:0..22 uphill→coast",
+  "source": {
+    "at": [
+      14,
+      3
+    ],
+    "outlet": [
+      14,
+      6
+    ],
+    "remaining": 35.332000000000804,
+    "released": 44.668000000000234,
+    "total": 80,
+    "pulses": [
+      {
+        "volume": 80,
+        "rate": 4,
+        "delay": 0
+      }
+    ]
+  },
+  "homes": [
+    {
+      "at": [
+        13,
+        12
+      ],
+      "safe": true,
+      "peak": 0.10348161627884801,
+      "exposure": 0
+    },
+    {
+      "at": [
+        16,
+        16
+      ],
+      "safe": true,
+      "peak": 0.15110383480235948,
+      "exposure": 0
+    },
+    {
+      "at": [
+        20,
+        18
+      ],
+      "safe": true,
+      "peak": 0.0036440983327243174,
+      "exposure": 0
+    }
+  ],
+  "safeReceived": 7.5768394735785565,
+  "target": 64,
+  "recharged": 0,
+  "infiltrationGoal": 0,
+  "time": 11.167000000000058,
+  "duration": 100,
+  "earthLeft": 40.599999999999895,
+  "earthBudget": 140,
+  "excavatedCells": 71,
+  "walls": [
+    {
+      "id": 1,
+      "x": 13.712660759223683,
+      "z": 7.965580074480336,
+      "angle": 0
+    }
+  ],
+  "wallStock": 2,
+  "toolDepth": 1.4,
+  "toolRadius": 1.25,
+  "constructionHistory": 3,
+  "reason": "",
+  "conservation": {
+    "water": 6.963318810448982e-13,
+    "salt": 0,
+    "pollution": 0,
+    "reuse": 0
+  },
+  "campaign": {
+    "current": 10,
+    "total": 24,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "resumedWin": false,
+    "mapOpen": false
+  },
+  "tool": "wall",
+  "movingWall": null,
+  "angle": 0,
+  "helpOpen": false,
+  "muted": true,
+  "preview": null
+}
