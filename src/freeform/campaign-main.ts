@@ -7,6 +7,9 @@ import {FreeformScene} from './campaign-scene';
 import {FREEFORM_LEVELS} from './campaign';
 import {CAMPAIGN_KEY,planKey,readProgress,recordRescue} from './progress';
 import type {Point} from '../levels';
+import {initHost,parseLevelParam,postToHost} from '../host';
+
+initHost('basin-breakers');
 
 const icons={map:'<path d="M3 3h8v8H3zM17 3h8v8h-8zM3 17h8v8H3zM17 17h8v8h-8z"/>',fill:'<path d="M3 22h22M6 18h16M9 14h10M14 2v9m-4-4 4 4 4-4"/>',shovel:'<path d="m8 17 9-9m-2-4 5 5 3-3-5-5-3 3ZM8 13l5 5-4 4c-2 2-5 2-7 1-1-2-1-5 1-7l5-3Z"/>',wall:'<path d="M2 10h20v12H2zM2 16h20M8 10v6m8 0v6M16 10v6M8 16v6"/>',undo:'<path d="m8 5-5 5 5 5M4 10h10a7 7 0 0 1 0 14"/>',play:'<path d="m8 4 15 10L8 24Z"/>',rotate:'<path d="M21 10a9 9 0 1 0 0 8M16 10h6V4"/>',sound:'<path d="m3 10 5-1 6-5v20l-6-5-5-1ZM19 8q7 6 0 12"/>',home:'<path d="m2 12 12-10 12 10M5 11v14h18V11M11 25v-8h6v8"/>',pause:'<path d="M8 5v18M19 5v18"/>',retry:'<path d="M22 12A10 10 0 1 0 22 21M16 12h7V5"/>',trash:'<path d="M7 8v15h14V8M4 7h20M11 3h6M11 11v8m6-8v8"/>'};
 const svg=(key:keyof typeof icons)=>`<svg viewBox="0 0 28 28" aria-hidden="true">${icons[key]}</svg>`;
@@ -14,8 +17,12 @@ const $=(id:string)=>document.getElementById(id)!;
 const campaign=readProgress(localStorage.getItem(CAMPAIGN_KEY));
 const legacyWon=!localStorage.getItem(CAMPAIGN_KEY)&&Number(localStorage.getItem('basin-freeform-rescues')||0)>0;
 if(legacyWon)campaign.missions[1]={completed:true,attempts:1};
+// ?level=N (the workbook host's lesson link) opens that authored map directly.
+const deepLevel=parseLevelParam(location.search,FREEFORM_LEVELS.length);if(deepLevel!==null)campaign.current=deepLevel+1;
 const model=new FreeformModel(campaign.current);let scene:FreeformScene;
 let resumedWin=false,mapOpen=false,oldView='';
+let hostReady=false,hostStartedAt=0;
+function hostLevelStart(){hostStartedAt=performance.now();if(hostReady)postToHost({type:'level-start',level:model.level});}
 function unpackSnapshot(value:unknown){
  if(!value||typeof value!=='object')return null;const raw=value as {bed?:unknown;changes?:unknown;walls?:unknown};
  if(Array.isArray(raw.bed))return{bed:raw.bed,walls:raw.walls};
@@ -60,7 +67,7 @@ function refresh(save=true){if(save){resumedWin=false;savePlan('plan');}scene.te
 function loadLevel(n:number){
  if(n<1||n>FREEFORM_LEVELS.length)return;
  savePlan();cancelGesture();scene.dispose();model.load(n);restoreSaved(n);scene=new FreeformScene($('world'),model);canvas=scene.renderer.domElement;bindCanvas();
- tool='dig';movingId=undefined;pointer=null;angle=0;oldMode='';oldView='';mapOpen=helpOpen=false;$('level-sheet').hidden=true;$('help-sheet').hidden=true;$('instruction').classList.toggle('dismissed',model.changedCells>0||model.walls.length>0||resumedWin);$('notice').classList.remove('visible');saveCampaign();refresh(false);canvas.focus();
+ tool='dig';movingId=undefined;pointer=null;angle=0;oldMode='';oldView='';mapOpen=helpOpen=false;$('level-sheet').hidden=true;$('help-sheet').hidden=true;$('instruction').classList.toggle('dismissed',model.changedCells>0||model.walls.length>0||resumedWin);$('notice').classList.remove('visible');saveCampaign();refresh(false);canvas.focus();hostLevelStart();
 }
 function nextLevel(){if(model.level<FREEFORM_LEVELS.length)loadLevel(model.level+1);else showMap(true);}
 function showMap(open:boolean){
@@ -82,14 +89,14 @@ canvas.addEventListener('pointercancel',cancelGesture);canvas.addEventListener('
 }
 bindCanvas();
 function run(){if(helpOpen||mapOpen)return;if(model.state.mode==='won'||resumedWin){nextLevel();return;}$('notice').classList.remove('visible');cancelGesture();scene.previewWall(null);scene.hoverBrush(null);const s=model.state;if(s.mode==='run')s.mode='paused';else if(s.mode==='paused')s.mode='run';else if(s.mode==='failed'){model.retry();refresh();}else{model.run();$('instruction').classList.add('dismissed');tone(160,.2);}sync();}
-function revise(){resumedWin=false;cancelGesture();model.retry();movingId=undefined;refresh();notify('התכנית נשמרה. אפשר לשנות אותה.');}
+function revise(){if(model.state.mode==='won'||resumedWin)hostLevelStart();resumedWin=false;cancelGesture();model.retry();movingId=undefined;refresh();notify('התכנית נשמרה. אפשר לשנות אותה.');}
 function undo(){cancelGesture();if(model.undo()){movingId=undefined;scene.previewWall(null);refresh();tone(270);}sync();}
 function help(open:boolean){helpOpen=open;$('help-sheet').hidden=!open;if(open){cancelGesture();if(model.state.mode==='run')model.state.mode='paused';$('close-help').focus();}else canvas.focus();sync();}
 function sync(){const s=model.state;$('stage').textContent=`שלב ${model.level} מתוך ${FREEFORM_LEVELS.length}`;$('level-name').textContent=model.config.title;$('instruction').textContent=model.config.brief;$('soil-goal').hidden=!model.config.infiltrationGoal;$('soil-quantity').textContent=`${s.recharged.toFixed(1)} / ${model.config.infiltrationGoal}`;$('soil-goal').querySelector<HTMLElement>('em')!.style.width=`${Math.min(100,s.recharged/Math.max(.01,model.config.infiltrationGoal)*100)}%`;const running=s.mode==='run'||s.mode==='paused';$('dig').classList.toggle('selected',tool==='dig');$('fill').classList.toggle('selected',tool==='fill');$('fill').setAttribute('aria-pressed',String(tool==='fill'));$('wall').classList.toggle('selected',tool==='wall');$('dig').setAttribute('aria-pressed',String(tool==='dig'));$('wall').setAttribute('aria-pressed',String(tool==='wall'));$('stock').textContent=model.maxWalls-model.walls.length===1?'סוללה אחת':`${model.maxWalls-model.walls.length} סוללות`;$('earth-value').textContent=`${Math.floor(model.earthLeft)} / ${s.level.budget}`;$('earth-fill').style.width=`${model.earthLeft/s.level.budget*100}%`;$('wall-options').hidden=tool!=='wall'||running;$('remove').hidden=movingId===undefined;($('undo') as HTMLButtonElement).disabled=!model.history.length;($('dig') as HTMLButtonElement).disabled=false;($('fill') as HTMLButtonElement).disabled=false;($('wall') as HTMLButtonElement).disabled=false;
  $('test-label').textContent=s.mode==='run'?'השהיה':s.mode==='paused'?'המשך השיטפון':s.mode==='won'||resumedWin?(model.level===24?'מפת השלבים':'השלב הבא'):s.mode==='failed'?'חזרה לתכנון':'בדיקת השיטפון';$('test').classList.toggle('running',running);$('pause').setAttribute('aria-label',s.mode==='paused'?'המשך':'השהיה');$('sound').classList.toggle('muted',muted);$('sound').setAttribute('aria-label',muted?'הפעלת צליל':'השתקת צליל');$('wave-track').classList.toggle('active',running);$('wave-track').querySelector<HTMLElement>('i')!.style.width=`${s.time/s.level.duration*100}%`;
  document.querySelectorAll<HTMLElement>('[data-home]').forEach(e=>{const k=Number(e.dataset.home);e.classList.toggle('flooded',!model.homeSafe[k]);e.classList.toggle('rescued',s.mode==='won');e.setAttribute('aria-label',`בית ${k+1}: ${!model.homeSafe[k]?'הוצף':s.mode==='won'?'בטוח':'להגנה'}`);});
  if(s.mode==='won'&&oldMode!=='won'){
-  recordRescue(campaign,model.level,{earth:model.earthUsed,walls:model.walls.length,received:model.delivered,infiltrated:s.recharged});savePlan('won');tone(523,.18);setTimeout(()=>tone(659,.2),120);
+  recordRescue(campaign,model.level,{earth:model.earthUsed,walls:model.walls.length,received:model.delivered,infiltrated:s.recharged});savePlan('won');postToHost({type:'level-complete',level:model.level,stars:1,durationMs:Math.round(performance.now()-hostStartedAt)});tone(523,.18);setTimeout(()=>tone(659,.2),120);
  }
  oldMode=s.mode;const view=`${s.mode}:${resumedWin}:${model.level}`;
  if(oldView!==view){
@@ -109,4 +116,6 @@ let time=0;function update(dt:number){model.advance(dt);time+=dt;scene.render(ti
 debug.advanceTime=(ms:number)=>{let left=ms/1000;while(left>1e-8){const dt=Math.min(1/60,left);update(dt);left-=dt;}};
 // Projection is read-only: browser QA uses it to relate visible geometry to captures.
 debug.basinFreeform={screen:(p:Point,y=0)=>scene.screen(p,y),construction:()=>({level:model.level,bed:Array.from(model.bed),walls:model.walls.map(w=>({...w}))})};
-let last=performance.now();function frame(now:number){const dt=Math.min(.05,(now-last)/1000);last=now;update(dt);requestAnimationFrame(frame);}savePlan();sync();requestAnimationFrame(frame);
+// The host hears `ready` once the scene has rendered with its gate model (or after a 4 s fallback), then the opening level-start.
+function announceReady(){if(hostReady||!(scene.assets.gate||time>4))return;hostReady=true;postToHost({type:'ready'});postToHost({type:'level-start',level:model.level});}
+let last=performance.now();function frame(now:number){const dt=Math.min(.05,(now-last)/1000);last=now;update(dt);announceReady();requestAnimationFrame(frame);}hostStartedAt=performance.now();savePlan();sync();requestAnimationFrame(frame);

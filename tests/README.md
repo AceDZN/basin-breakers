@@ -27,3 +27,8 @@ Dev URL: `http://localhost:5302`; production preview: `http://localhost:4302`. L
 Historical evidence lives in `docs/playtest-captures/` and `docs/history/`. `latest-model-results.tap` retains the legacy readable Node reporter output (66/66); its suffix does not claim strict TAP syntax. The previous guided rescue prototype was rejected by the human and is recorded in `docs/rebuild/REJECTED_HISTORY.md`.
 
 No solution-identifier match, injected success flag, or transient early fill counts as physical solvability. Final evaluation follows the full event horizon. Internal authored-plan QA is not an unaided student trial or evidence of learning gains.
+
+## Workbook host
+
+- `npx tsx --test tests/host.test.ts` (part of `npm test`): `?level=N` parsing for the 24 authored maps.
+- `node tests/host-embed.mjs` (needs `npm run build && npm run preview` on :4302): a localhost parent iframes `?level=3`, wins it with one real pointer trench and the flood test, and checks `ready` → `level-start` → `level-complete`; a standalone page posts nothing.
